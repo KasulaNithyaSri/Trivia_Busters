@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Busters</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#253f4b;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            justify-content: flex-start;
+            overflow: auto;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            padding: 10px 20px;
+            position: relative;
+        }
+        .icon {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 15px;
+            left: 40px;
+            border-radius: 30px;
+        }
+        h1 {
+            color: #f3f2f6d6;
+            font-size: 3vw;
+            margin-left: 70px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            margin-top: 20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .btn {
+            width: 100%;
+            max-width: 150px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            overflow: hidden;
+            cursor: pointer; 
+        }
+        .btn:hover {
+            transform: scale(1.1);
+        }
+        .btn img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .box{
+            width: 90%;
+            height: 20px;
+            border: 0px solid #f2f6f2e7;
+            border-radius: 5px;
+            margin-top: 8px;
+            resize: none;
+            padding: 5px;
+            font-size: 13px;
+            font-weight: bold;
+            text-align: center;
+            background-color: #54d07b;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 5vw;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 7vw;
+            }
+            .icon {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="header">
+        <img class="icon" src="c:/Users/Narasimha Reddy/Downloads/tb.jpg" alt="Icon"> <!-- Replace with your icon image path -->
+        <h1>TRIVIA BUSTERS</h1>
+    </div>
+    <div class="button-grid">
+        <div class="btn-container">
+            <button class="btn c" onclick="window.location.href='C_Language.html'">
+                <img src="d:\Quizz Application\c.png" alt="C">
+            </button>
+            <div class="box">C</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn cpp" onclick="window.location.href='Cpp_Language.html'">
+                <img src="d:\Quizz Application\c++.png" alt="C++">
+            </button>
+            <div class="box">C++</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn java" onclick="window.location.href='Java_Language.html'">
+                <img src="d:\Quizz Application\Java.jpg" alt="Java">
+            </button>
+            <div class="box">JAVA</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn algorithm" onclick="window.location.href='Algorithm_Lang.html'">
+                <img src="d:\Quizz Application\Alogorithms.png" alt="Algorithm">
+            </button>
+            <div class="box">ALGORITHMS</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn os" onclick="window.location.href='OS_Language.html'">
+                <img src="d:\Quizz Application\operating system.png" alt="Operating System">
+            </button>
+            <div class="box">OperatingSystem</div>
+        </div>
+        <div class="btn-container" onclick="window.location.href='Computer_Networks.html'">
+            <button class="btn networks">
+                <img src="d:\Quizz Application\Computer Networks.jpg" alt="Computer Networks">
+            </button>
+            <div class="box">ComputerNetworks</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn ds" onclick="window.location.href='DataStructures.html'">
+                <img src="d:\Quizz Application\Data Structures.png" alt="Data Structure">
+            </button>
+            <div class="box">DataStructures</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn python" onclick="window.location.href='Python.html'">
+                <img src="d:\Quizz Application\Python.png" alt="Python">
+            </button>
+            <div class="box">PYTHON</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn html" onclick="window.location.href='HTML.html'">
+                <img src="d:\Quizz Application\HTML.png" alt="HTML">
+            </button>
+            <div class="box">HTML</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn css"  onclick="window.location.href='CSS.html'">
+                <img src="d:\Quizz Application\CSS.png" alt="CSS">
+            </button>
+            <div class="box">CSS</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn javascript" onclick="window.location.href='JavaScript.html'">
+                <img src="d:\Quizz Application\JavaScript.jpeg" alt="JavaScript">
+            </button>
+            <div class="box">JAVASCRIPT</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn compiler" onclick="window.location.href='CompilerDesign.html'">
+                <img src="d:\Quizz Application\compiler Design.png" alt="Compiler Design">
+            </button>
+            <div class="box" >Compiler Design</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn sql" onclick="window.location.href='SQL.html'">
+                <img src="d:\Quizz Application\SQL.jpeg" alt="SQL">
+            </button>
+            <div class="box">SQL</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn machine" onclick="window.location.href='MachineLearning.html'">
+                <img src="d:\Quizz Application\Machine Language.png" alt="Machine Language">
+            </button>
+            <div class="box">MachineLanguage</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn dbms" onclick="window.location.href='DBMS.html'">
+            <img src="d:\Quizz Application\DBMS.png" alt="DBMS">
+            </button>
+            <div class="box">DBMS</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn cloud" onclick="window.location.href='CloudComp.html'">
+                <img src="d:\Quizz Application\Cloud Computing.jpg" alt="Cloud Computing">
+            </button>
+            <div class="box">CloudComputing</div>
+        </div>
+        <div class="btn-container">
+            <button class="btn csharp" onclick="window.location.href='Csharp.html'">
+                <img src="data:image/jpeg;base64,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" alt="C#">
+            </button>
+            <div class="box">C#</div>
+        </div>
+    </div>
+    
+</body>
+</html>

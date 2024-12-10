@@ -12,440 +12,440 @@ const quizQuestions = [
   
     {
   
-      question: "Which of the following is not a valid C variable name?",
+      question: "HTML stands for __________",
   
-      options: ["int number;", "float number1;", "double _number;", "int $main;"],
+      options: ["HyperText Markup Language", "HyperText Machine Language", "HyperText Marking Language", "HighText Marking Language"],
   
-      correctAnswer: "int $main;"
-  
-    },
-  
-    {
-      question: "All keywords in C are in ____________.",
-  
-      options: ["LowerCase letters", "UpperCase letters", "CamelCase letters", "None of the mentioned"],
-  
-      correctAnswer: "LowerCase letters"
+      correctAnswer: "HyperText Markup Language"
   
     },
   
     {
+      question: "What is the correct syntax of doctype in HTML5?",
   
-       question: "Which keyword is used to prevent any changes in the variable within a C program?",
+      options: ["</doctype html>", "<doctype html>", "<doctype html!>", "<!doctype html>"],
   
-       options: ["immutable", "mutable", "const", "volatile"],
-  
-      correctAnswer: "const"
+      correctAnswer: "<!doctype html>"
   
     },
   
     {
   
-       question: "What is the result of logical or relational expression in C?",
+       question: "Which of the following is used to read an HTML page and render it?",
   
-       options: ["True or False", "0 or 1", "0", "None"],
+       options: ["Web server", "Web network", "Web browser", "Web matrix"],
   
-       correctAnswer: "0 or 1"
-  
-    },
-  
-    {
-  
-      question:"Which operator is used for bitwise AND in C?",
-  
-      options:["&&","||","&","|"],
-  
-      correctAnswer:"&"
+      correctAnswer: "Web browser"
   
     },
   
     {
   
-        question:"What is the result of the following expression: 5 > 3 && 2 < 4?",
+       question: "Which of the following tag is used for inserting the largest heading in HTML?",
   
-        options:["True","False","1","0"],
+       options: ["head", "<h1>", "<h6>", "heading"],
   
-        correctAnswer:"1"
+       correctAnswer: "<h1>"
+  
+    },
+  
+    {
+  
+      question:"In which part of the HTML metadata is contained?",
+  
+      options:["head tag","title tag","html tag","body tag"],
+  
+      correctAnswer:"head tag"
+  
+    },
+  
+    {
+  
+        question:"Which element is used to get highlighted text in HTML5?",
+  
+        options:["<u>","<mark>","<highlight>","<b>"],
+  
+        correctAnswer:"<mark>"
   
       },
   
     {
   
-      questio:"Which of the following is not a valid variable name in Java?",
+      questio:"Which of the following is not a HTML5 tag?",
   
-        options:["total","_sum","valued_1","1valued"],
+        options:["<track>","<video>","<slider>","<source>"],
   
-        correctAnswer:"1valued"
+        correctAnswer:"<slider>"
   
       },
   
     {
   
-      question:"Identify the return type of a method that does not return any value",
+      question:"How do we write comments in HTML?",
   
-      options:["int","void","double","none"],
+      options:["</…….>","<!……>","</……/>","<…….!>"],
   
-         correctAnswer:"void"
+         correctAnswer:"<!……>"
   
        },
   
     {
   
-       question:"Output of Math.floor(3.6)?",
+       question:"Which of the following elements in HTML5 defines video or movie content?",
   
-      options:["3","3.0","4","4.0"],
+      options:["<video>","<movie>","<audio>","<media>"],
   
-         correctAnswer:"3.0"
-  
-      },
-  
-    {
-  
-      question:"Number of primitive data types in Java are?",
-  
-      options:["6","7","8","9"],
-  
-      correctAnswer:"7"
+         correctAnswer:"<video>"
   
       },
   
     {
   
-      question:"What is the size of float and double in java?",
+      question:"Which of the following is not the element associated with the HTML table layout?",
   
-      options:["32 and 64","32 and 32","64 and 64","64 and 32"],
+      options:["alignment","color","color","spanning"],
   
-      correctAnswer:"32 and 64"
-  
-      },
-  
-    {
-  
-      question:"What is the default value of an instance variable of type int in Java?",
-  
-      options:["0","NULL","\0","Undefined"],
-  
-      correctAnswer:"0"
+      correctAnswer:"color"
   
       },
   
     {
   
-      question:"Which of the following is not a standard data type in C?",
+      question:"Which element is used for or styling HTML5 layout?",
   
-      options:["int","char","boolean","float"],
+      options:["CSS"," jQuery","JavaScript"," PHP "],
   
-      correctAnswer:"boolean"
+      correctAnswer:"CSS"
   
       },
   
     {
   
-      question:"	Which of the following is not a Java features?",
+      question:"Which HTML tag is used for making character appearance bold?",
   
-      options:["Dynamic","WORA","Use of pointers","Object-oriented"],
+      options:["<u>content</u>","<b>content</b>","<br>content</br>","<i>content</i>"],
   
-      correctAnswer:"Use of pointers"
+      correctAnswer:"<b>content</b>"
+  
+      },
+  
+    {
+  
+      question:"HTML is a subset of ___________",
+  
+      options:["SGMT","SGML","SGME","XHTML"],
+  
+      correctAnswer:"SGML"
+  
+      },
+  
+    {
+  
+      question:"Which character is used to represent when a tag is closed in HTML?",
+  
+      options:["#","!","/","+"],
+  
+      correctAnswer:"/"
   
       },
   
       {
   
-          question:"Which Keyword is used to define a constant in C?",
+          question:"Among the following, which is the HTML paragraph tag?",
   
-          options:["constant","const","define","static"],
+          options:["<p>","<pre>","<hr>","static"],
   
-          correctAnswer:"const"
+          correctAnswer:"<p>"
   
         },
   
       {
   
-        question:"Which function is used to find the length of a string in C?",
+        question:"In HTML, which attribute is used to create a link that opens in a new window tab?",
   
-          options:["strlen()","strlength()","length()","size()"],
+          options:["src=”_blank”","alt=”_blank”"," target=”_self”","target=”_blank”"],
   
-          correctAnswer:"strlen()"
+          correctAnswer:"target=”_blank”"
   
       },
   
       {
   
-      question:"Which of the following data types has the largest range in C?",
+      question:"Which HTML element is used for short quote?",
   
-      options:["int","char","double","float"],
+      options:["<ol>","<ul>","<li>","<ll>"],
   
-           correctAnswer:"double"
+           correctAnswer:"<ul>"
   
         },
   
       {
   
-      question:"Which of the following is used to store a single character in C?",
+      question:" Which HTML element is used for abbreviation or acronym?",
   
-      options:["String","Char","character","text"],
+      options:["<abbr>","<blockquote>","<q>","<em>"],
   
-           correctAnswer:"Char"
+           correctAnswer:"<abbr>"
   
         },
   
       {
   
-      question:"Which of the following is not a valid C loop?",
+      question:" Which of the following HTML tag is used to add a row in a table?",
   
-      options:["for","do-while","while","foreach"],
+      options:["<th>","<td> ","<tr>","<tt>"],
   
-      correctAnswer:"foreach"
-  
-      },
-  
-      {
-  
-      question:"	Exception created by try block is caught in which block?",
-  
-      options:["catch","throw","final","none"],
-  
-      correctAnswer:"catch"
+      correctAnswer:"<tr>"
   
       },
   
       {
   
-      question:"Automatic type conversion is possible in which of the possible cases?",
+      question:"To show deleted text, which HTML element is used?",
   
-      options:["byte to int","int to long","long to int","short to int"],
+      options:["<del>","<em>","<strong>","<ins>"],
   
-      correctAnswer:"int to long"
-  
-      },
-  
-      {
-  
-      question:"Arrays in java are-",
-  
-      options:["Object references","object","Primitive data type","None"],
-  
-        correctAnswer:"object"
+      correctAnswer:"<del>"
   
       },
   
       {
   
-      question:"When is the object created with new keyword?",
+      question:"Which tag is used to create a dropdown in HTML Form?",
   
-      options:["At run time","At compile time","Depends on the code","None"],
+      options:["<input>","<select>","<text>","<textarea>"],
   
-        correctAnswer:"At run time"
+      correctAnswer:"<select>"
+  
+      },
+  
+      {
+  
+      question:"Which tag is used to create a numbered list in HTML?",
+  
+      options:["<ol>","<ul>","<li>","<ll>"],
+  
+        correctAnswer:"<ol>"
+  
+      },
+  
+      {
+  
+      question:"Which of the following extension is used to save an HTML file?",
+  
+      options:[".hl",".h",".htl",".html"],
+  
+        correctAnswer:".html"
   
         },
   
         {
   
-            question:"compareTo() returns",
+            question:"Which tag is used to create a blank line in HTML?",
   
-            options:["True","False","An int value","None"],
+            options:["<b>","<br>","<em>","<a>"],
   
-            correctAnswer:"An int value"
+            correctAnswer:"<br>"
   
           },
   
         {
   
-          question:"To which of the following does the class string belong to?",
+          question:"Which HTML tag is used to convert the plain text into italic format?",
   
-            options:["java.lang","java.awt","java.applet","java.string"],
+            options:["<b>","<p>","<i>","<a>"],
   
-            correctAnswer:"java.lang"
+            correctAnswer:"<i>"
   
         },
   
         {
   
-        question:"Where does the system stores parameters and local variables whenever a method is invoked?",
+        question:"Which attribute is not essential under <iframe>?",
   
-        options:["Heap","Stack","Tree","Array"],
+        options:["frameborder","width","height","src"],
   
-             correctAnswer:"Stack"
+             correctAnswer:"frameborder"
   
           },
   
         {
   
-        question:"Identify the modifier which cannot be used for constructor?",
+        question:"Which works similar to <b> element?",
   
-        options:["public","protected","private","static"],
+        options:["<blockquote>","<strong>","<em>","<i>"],
   
-             correctAnswer:"static"
+             correctAnswer:"<strong>"
   
           },
   
         {
   
-        question:"What is Runnable?",
+        question:"Which tag is used to underline the text in HTML?",
   
-        options:["Abstract class","Interface","Class","Method"],
+        options:["<p>","<u>","<i>","<ul>"],
   
-        correctAnswer:"Interface"
-  
-        },
-  
-        {
-  
-        question:"Which of the following is used to find and fix bugs in the program?",
-  
-        options:["JDK","JRE","JVM","JDB"],
-  
-        correctAnswer:"JVM"
+        correctAnswer:"<u>"
   
         },
   
         {
   
-        question:"Which component is used to compile, debug and execute the java programs?",
+        question:"Which attribute specifies a unique alphanumeric identifier to be associated with an element?",
   
-        options:["JRE","JVM","JIT","JDK"],
+        options:["type","article","id","class"],
   
-        correctAnswer:"JDK"
-  
-        },
-  
-        {
-  
-        question:"What is the extension of java code files?",
-  
-        options:[".txt",".js",".class",".java"],
-  
-          correctAnswer:".java"
+        correctAnswer:"id"
   
         },
   
         {
   
-        question:"Which of the following is a superclass of every class in Java?",
+        question:"Which of the following is an HTML specification used to add more information to HTML tags?",
   
-        options:["ArrayList","Abstract class","Object class","String"],
+        options:["Modifydata","Minidata","Macrodata","Microdata"],
   
-          correctAnswer:"Object class"
+        correctAnswer:"Microdata"
+  
+        },
+  
+        {
+  
+        question:"Which HTML element is used for YouTube videos?",
+  
+        options:["<samp>","<small>","<frame>","<iframe>"],
+  
+          correctAnswer:"<iframe>"
+  
+        },
+  
+        {
+  
+        question:"Which of the following HTML element is used for canvas graphics?",
+  
+        options:["<css>","<paint>","<canvas>","<graphic>"],
+  
+          correctAnswer:"<canvas>"
   
           },
   
           {
   
-              question:"Which of the following is not an OOPS concept in Java?",
+              question:"Which of the following is the correct file extension for an HTML file?",
   
-              options:["Polymorphism","Inheritance","Compilation","Encapsulation"],
+              options:[".htm",".html","Both a and b","None of the above"],
   
-              correctAnswer:"Compilation"
+              correctAnswer:"None of the above"
   
             },
   
           {
   
-            question:"Which of these keywords are used for the block to be examined for exceptions?",
+            question:"HTML is a...",
   
-              options:["check","throw","catch","try"],
+              options:["Programming language","Markup language","Scripting language","Style sheet language"],
   
-              correctAnswer:"try"
+              correctAnswer:"Markup language"
   
           },
   
           {
   
-          question:"In Java, how should class names be written?",
+          question:"What is the smallest heading in HTML by default?",
   
-          options:["CamelCase","snake_case","pascalCase","None"],
+          options:["<heading>","<h6>","<h1>","<small>"],
   
-               correctAnswer:"CamelCase"
+               correctAnswer:"<h1>"
   
             },
   
           {
   
-          question:"Which of these is a single-line comment in Java?",
+          question:"Which of the following tag is used to create a hyperlink?",
   
-          options:["/comment/","//comment","/* comment */","%Comment"],
+          options:["<img>","<link>","<a>","<href>"],
   
-               correctAnswer:"//comment"
+               correctAnswer:"<href>"
   
             },
   
           {
   
-          question:"Which data type would be best for storing a person's age in Java?",
+          question:"Which of these elements is considered the root element?",
   
-          options:["int","double","long","byte"],
+          options:["<body>","<html>","<!DOCTYPE>","<head>"],
   
-          correctAnswer:"byte"
-  
-          },
-  
-          {
-  
-          question:"What is the default value of a boolean variable in Java?",
-  
-          options:["trye","false","0","null"],
-  
-          correctAnswer:"false"
+          correctAnswer:"<!DOCTYPE>"
   
           },
   
           {
   
-          question:"What is the result of this operation in Java:(int)(7.9)?",
+          question:"How do you make text bold in HTML?",
   
-          options:["7","7.9","8","9"],
+          options:["<strong>","<b>","Both a and b","None of the above"],
   
-          correctAnswer:"7"
+          correctAnswer:"Both a and b"
   
           },
   
           {
   
-          question:"Which keyword is used to define a constant variable in Java?",
+          question:"How do you make text italic in HTML?",
   
-          options:["final","static","const","immutable"],
+          options:["<i>","<em>","Both a and b","<italic>"],
   
-            correctAnswer:"final"
+          correctAnswer:"<i>"
+  
+          },
+  
+          {
+  
+          question:"Which tag is used to create a line break?",
+  
+          options:["<break>","<br>","<lb>","<hr>"],
+  
+            correctAnswer:"<br>"
   
     },
   
    {
   
-      question:"Identify the interface which is used to declare core methods in java?",
+      question:"Which attribute is used to submit the form data to the server?",
   
-      options:["Comparator","EventListener","Set","Collection"],
+      options:["action","method","enctype","All of the above"],
   
-      correctAnswer:"Collection"
+      correctAnswer:"All of the above"
   
     },
   
     {
   
-    question:"What does the operator >> do?",
+    question:"Which tag is used to define a table in HTML?",
   
-    options:["Right-Shift","Left-Shift","shift","None"],
+    options:["<tbl>","<table>","<tab>","<td>"],
   
-    correctAnswer:"Right-Shift"
+    correctAnswer:"<table>"
   
      },
   
      {
   
-     question:"Function to find length of the string?",
+     question:"What does the <td> tag represent in a table?",
   
-     options:["length()","len()","len","length"],
+     options:["Table Header","Table Row","Table Cell","Table Body"],
   
-     correctAnswer:"length()"
+     correctAnswer:"Table Cell"
   
       },
   
       {
   
-      question:"Function to find length of the array?",
+      question:"How do you define a table header?",
   
-      options:["length()","len()","len","length"],
+      options:["<header>","<th>","<head>","<tr>"],
   
-      correctAnswer:"length"
+      correctAnswer:"<th> "
   
        },
   
@@ -453,154 +453,534 @@ const quizQuestions = [
   
    {
   
-      question:"What is an example of iteration in C?",
+      question:"WWhich attribute is used to merge two or more cells in a table row?",
   
-      options: ["for", "while", "do-while", "All of the mentioned"],
+      options: ["rowspan", "colspan", "cellmerge", "merge"],
   
-      correctAnswer: "All of the mentioned"
-  
-    },
-  
-    {
-  
-      question: "The C-preprocessors are specified with _________ symbol.",
-  
-      options: ["#", "$", "&", "*"],
-  
-      correctAnswer: "#"
+      correctAnswer: "colspan"
   
     },
   
     {
   
-       question:"Which of the following are C preprocessors?",
+      question: "What is the correct attribute to add controls to a video?",
   
-       options: ["#ifdef", "#define", "#endif", "All of the mentioned"],
+      options: ["autoplay", "play", "controls", "options"],
   
-       correctAnswer: "All of the mentioned"
+      correctAnswer: "controls"
   
     },
   
     {
   
-      question:"Which of the following return-type cannot be used for a function in C?",
+       question:"Which tag is used to embed audio files in HTML?",
   
-      options: ["char *", "struct", "void", "None of the mentioned"],
+       options: ["<audio>", "<sound>", "<music>", "<voice>"],
   
-      correctAnswer: "None of the mentioned"
+       correctAnswer: "<audio>"
   
-     },
+    },
   
-     {
+    {
   
-       question:"What is the sizeof(char) in a 32-bit C compiler?",
+      question:"What attribute specifies multiple sources for media elements like <audio> and <video>?",
   
-       options: ["1 bit", "2 bits", "1 byte", "2 bytes"],
+      options: ["<source>", "<track>", "<src>", "<type>"],
   
-       correctAnswer: "1 byte"
-  
-     },
-  
-     {
-  
-        question: "Which of these is NOT a relational or logical operator?",
-  
-        options: ["=", "||", "==", "!="],
-  
-        correctAnswer: "="
+      correctAnswer: "<source>"
   
      },
   
      {
   
-      question: "Which one of the following is a loop construct that will always be executed once?",
+       question:"Which attribute is used to provide text for captions in a video?",
   
-      options: ["for", "while", "switch", "do while"],
+       options: ["subtitle", "transcribe", "<track>", "<caption>"],
   
-      correctAnswer: "do while"
-  
-     },
-  
-     {
-  
-      question: "Directives are translated by the ___________.",
-  
-      options: ["Pre-processor", "Compiler", "Linker", "Editor"],
-  
-      correctAnswer: "Pre-processor"
+       correctAnswer: "<track>"
   
      },
   
      {
   
-      question: "while(condition); -justify the given statement?",
+        question: "Which tag represents the main content of a document?",
   
-      options: [ "Invalid statement", "Valid statement","Syntax error", "None of the mentioned"],
+        options: ["<body>", "<main>", "<content>", "<section>"],
   
-      correctAnswer: "Valid statement"
-  
-     },
-  
-     {
-  
-      question: "The binary equivalent of 50 is _____________.",
-  
-      options: ["110010","1010110","101","101.011.00.00"],
-  
-      correctAnswer: "110010"
+        correctAnswer: "<main>"
   
      },
   
      {
   
-       question: "Which function is often used to output values and print text?",
+      question: "Which tag is used to group navigation links in HTML?",
   
-       options: ["printf()","output()","write()","printword()"],
+      options: ["<nav>", "<footer>", "<aside>", "<section>"],
   
-       correctAnswer: "printf()"
+      correctAnswer: "<aside>"
+  
+     },
+  
+     {
+  
+      question: "Which attribute specifies the URL for a <script> tag?",
+  
+      options: ["src", "href", "location", "url"],
+  
+      correctAnswer: "location"
+  
+     },
+  
+     {
+  
+      question: "What is the default method for submitting form data in HTML?",
+  
+      options: [ "GET", "POST","PUT", "DELETE"],
+  
+      correctAnswer: "POST"
+  
+     },
+  
+     {
+  
+      question: "Which attribute is used to describe an image for screen readers?",
+  
+      options: ["src","href","alt","title"],
+  
+      correctAnswer: "alt"
+  
+     },
+  
+     {
+  
+       question: "Which tag is used to define keyboard shortcuts in HTML?",
+  
+       options: ["<shortcut>","<key>","<kbd>","<accesskey>"],
+  
+       correctAnswer: "<accesskey>"
   
       },
   
      {
   
-       question: "Which format specifier is often used to print integers?",
+       question: "Which of the following is a block-level element by default?",
   
-       options: ["%f","%d","%s","%c"],
+       options: ["<div>","<span>","<b>","<a>"],
   
-       correctAnswer: "%d"
-  
-      },
-  
-      {
-  
-        question: "Which keyword is used to return a value inside a function?",
-  
-        options: ["break","void","get","return"],
-  
-        correctAnswer: "return"
-  
-      },
-  
-      {
-  
-        question: "Which statement can be used to select one of many code blocks to be executed?",
-  
-        options: ["break","when","default","switch"],
-  
-        correctAnswer: "switch"
+       correctAnswer: "<div>"
   
       },
   
       {
   
-        question: "for(;;) - output for the given code",
+        question: "Which of the following is NOT an inline element?",
   
-        options: ["Infinite loop","1","0","Syntax-error"],
+        options: ["<strong>","<p>","<em>","<a>"],
   
-        correctAnswer: "Infinite loop"
+        correctAnswer: "<p>"
+  
+      },
+  
+      {
+  
+        question: "Which element is used to group inline elements?",
+  
+        options: ["<div>","<body>","<span>","<group>"],
+  
+        correctAnswer: "<span>"
+  
+      },
+  
+      {
+  
+        question: "Which unit is most commonly used for responsive layouts?",
+  
+        options: ["px","%","cm","pt"],
+  
+        correctAnswer: "%"
   
       },		  
+      {
   
+        question:"Which attribute specifies an alternative text for an image if the image cannot be displayed?",
+    
+        options:["title","alt","src","href"],
+    
+        correctAnswer:"alt"
+    
+      },
+    
+      {
+    
+      question:"Which attribute is used to define inline CSS styles for an element?",
+    
+      options:["style","class ","css","id"],
+    
+      correctAnswer:"style"
+    
+       },
+    
+       {
+    
+       question:"Which attribute is used to specify the character encoding for an HTML document?",
+    
+       options:["charset","<meta charset='UTF-8'>","encoding","<div>"],
+    
+       correctAnswer:"meta charset='UTF-8'>"
+    
+        },
+    
+        {
+    
+        question:"How do you group related elements in an HTML form?",
+    
+        options:["<fieldset>","<section>","<div>","<form>"],
+    
+        correctAnswer:"<fieldset>"
+    
+         },
+    
+    
+    
+     {
+    
+        question:"Which tag is used to define a label for an input element?",
+    
+        options: ["<form>", "<input>", "<caption>", "<label>"],
+    
+        correctAnswer: "<label>"
+    
+      },
+    
+      {
+    
+        question: "Which attribute is used to automatically focus an input field when the page loads?",
+    
+        options: ["target", "autofocus", "default", "selected"],
+    
+        correctAnswer: "default"
+    
+      },
+    
+      {
+    
+         question:"Which HTML5 tag is used to define a footer for a document or section?",
+    
+         options: ["<bottom>", "<footer>", "<end>", "<nav>"],
+    
+         correctAnswer: "<footer>"
+    
+      },
+    
+      {
+    
+        question:"Which HTML5 tag is used to embed SVG graphics?",
+    
+        options: ["<svg>", "<canvas>", "<graphic>", "<vector>"],
+    
+        correctAnswer: "<canvas>"
+    
+       },
+    
+       {
+    
+         question:"Which element is used to define progress or completion of a task?",
+    
+         options: ["<meter>", "<progress>", "<bar>", "<status>"],
+    
+         correctAnswer: "<progress>"
+    
+       },
+    
+       {
+    
+          question: "Which tag defines a dialog box or interactive widget in HTML5?",
+    
+          options: ["<dialog>", "<widget>", "<popup>", "<alert>"],
+    
+          correctAnswer: "<dialog>"
+    
+       },
+    
+       {
+    
+        question: "What attribute is used to specify that a script should be executed asynchronously?",
+    
+        options: ["sync", "async", "defer", " delay"],
+    
+        correctAnswer: "async"
+    
+       },
+    
+       {
+    
+        question: "Which attribute ensures a script is executed only after the HTML document has been fully parsed?",
+    
+        options: ["async", "parse", "defer", "load"],
+    
+        correctAnswer: "defer"
+    
+       },
+    
+       {
+    
+        question: "Which symbol is used to denote the root directory in a relative file path?",
+    
+        options: [ "../", "/","./", "!"],
+    
+        correctAnswer: "/"
+    
+       },
+    
+       {
+    
+        question: "What does ../ in a file path indicate?",
+    
+        options: ["Current directory","Parent directory","Root directory","Subdirectory"],
+    
+        correctAnswer: "Parent directory"
+    
+       },
+    
+       {
+    
+         question: "Which tag is used to define a container for a self-contained piece of multimedia content?",
+    
+         options: ["<multimedia>","<figure>","<img>","<media>"],
+    
+         correctAnswer: "<figure>"
+    
+        },
+    
+       {
+    
+         question: "How do you add subtitles to a <video> in HTML?",
+    
+         options: ["<subtitles>","<text>","<track>","<source>"],
+    
+         correctAnswer: "<track>"
+    
+        },
+    
+        {
+    
+          question: "Which tag is used to embed a Flash application in HTML?",
+    
+          options: ["<flash>","<movie>","<object>","<video>"],
+    
+          correctAnswer: "<object>"
+    
+        },
+    
+        {
+    
+          question: "Which attribute in <marquee> tag controls the speed of scrolling?",
+    
+          options: ["direction","scrollspeed","scrolldelay","speed"],
+    
+          correctAnswer: "scrolldelay"
+    
+        },
+    
+        {
+    
+          question: "Which attribute ensures a user cannot leave a required input field empty in a form?",
+    
+          options: ["mandatory","required","validate","checked"],
+    
+          correctAnswer: "required"
+    
+        },
+         {
+      
+         question:"What does the <td> tag represent in a table?",
+      
+         options:["Table Header","Table Row","Table Cell","Table Body"],
+      
+         correctAnswer:"Table Cell"
+      
+          },
+      
+          {
+      
+          question:"How do you define a table header?",
+      
+          options:["<header>","<th>","<head>","<tr>"],
+      
+          correctAnswer:"<th> "
+      
+           }, 
+      
+       {
+      
+          question:"WWhich attribute is used to merge two or more cells in a table row?",
+      
+          options: ["rowspan", "colspan", "cellmerge", "merge"],
+      
+          correctAnswer: "colspan"
+      
+        },
+      
+        {
+      
+          question: "What is the correct attribute to add controls to a video?",
+      
+          options: ["autoplay", "play", "controls", "options"],
+      
+          correctAnswer: "controls"
+      
+        },
+      
+        {
+      
+           question:"Which tag is used to embed audio files in HTML?",
+      
+           options: ["<audio>", "<sound>", "<music>", "<voice>"],
+      
+           correctAnswer: "<audio>"
+      
+        },
+      
+        {
+      
+          question:"What attribute specifies multiple sources for media elements like <audio> and <video>?",
+      
+          options: ["<source>", "<track>", "<src>", "<type>"],
+      
+          correctAnswer: "<source>"
+      
+         },
+      
+         {
+      
+            question: "Which tag represents the main content of a document?",
+      
+            options: ["<body>", "<main>", "<content>", "<section>"],
+      
+            correctAnswer: "<main>"
+      
+         },
+      
+         {
+      
+          question: "Which attribute specifies the URL for a <script> tag?",
+      
+          options: ["src", "href", "location", "url"],
+      
+          correctAnswer: "location"
+      
+         },
+      
+         {
+      
+          question: "What is the default method for submitting form data in HTML?",
+      
+          options: [ "GET", "POST","PUT", "DELETE"],
+      
+          correctAnswer: "POST"
+      
+         },
+      
+         {
+      
+          question: "Which attribute is used to describe an image for screen readers?",
+      
+          options: ["src","href","alt","title"],
+      
+          correctAnswer: "alt"
+      
+         },
+      
+         {
+      
+           question: "Which tag is used to define keyboard shortcuts in HTML?",
+      
+           options: ["<shortcut>","<key>","<kbd>","<accesskey>"],
+      
+           correctAnswer: "<accesskey>"
+      
+          },
+      
+         {
+      
+           question: "Which of the following is a block-level element by default?",
+      
+           options: ["<div>","<span>","<b>","<a>"],
+      
+           correctAnswer: "<div>"
+      
+          },
+      
+          {
+      
+            question: "Which of the following is NOT an inline element?",
+      
+            options: ["<strong>","<p>","<em>","<a>"],
+      
+            correctAnswer: "<p>"
+      
+          },
+      
+          {
+      
+            question: "Which element is used to group inline elements?",
+      
+            options: ["<div>","<body>","<span>","<group>"],
+      
+            correctAnswer: "<span>"
+      
+          },
+      
+          {
+      
+            question: "Which unit is most commonly used for responsive layouts?",
+      
+            options: ["px","%","cm","pt"],
+      
+            correctAnswer: "%"
+      
+          },
+          {
+  
+            question:"Which attribute is used to submit the form data to the server?",
+        
+            options:["action","method","enctype","All of the above"],
+        
+            correctAnswer:"All of the above"
+        
+          },
+        
+         
+        
+           {
+        
+              question: "Which tag represents the main content of a document?",
+        
+              options: ["<body>", "<main>", "<content>", "<section>"],
+        
+              correctAnswer: "<main>"
+        
+           },
+        
+           {
+        
+            question: "Which tag is used to group navigation links in HTML?",
+        
+            options: ["<nav>", "<footer>", "<aside>", "<section>"],
+        
+            correctAnswer: "<aside>"
+        
+           },
+        
+           {
+        
+            question: "Which attribute specifies the URL for a <script> tag?",
+        
+            options: ["src", "href", "location", "url"],
+        
+            correctAnswer: "location"
+        
+           },
   ];
   
   

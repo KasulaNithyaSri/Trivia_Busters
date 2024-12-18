@@ -2,388 +2,388 @@ const quizQuestions = [
 
     {
   
-      question: "Who is the father of C language?",
+      question: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",
   
-      options: ["Steve Jobs","James Gosling","Dennis Ritchi","Rasmus Lerdorf"],
+      options: ["DML","Query","Relational Schema","DDL"],
   
-      correctAnswer: "Dennis Ritchi"
-  
-    },
-  
-    {
-  
-      question: "Which of the following is not a valid C variable name?",
-  
-      options: ["int number;", "float number1;", "double _number;", "int $main;"],
-  
-      correctAnswer: "int $main;"
-  
-    },
-  
-    {
-      question: "All keywords in C are in ____________.",
-  
-      options: ["LowerCase letters", "UpperCase letters", "CamelCase letters", "None of the mentioned"],
-  
-      correctAnswer: "LowerCase letters"
+      correctAnswer: "DDL"
   
     },
   
     {
   
-       question: "Which keyword is used to prevent any changes in the variable within a C program?",
+      question: "Which of the following provides the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database?",
   
-       options: ["immutable", "mutable", "const", "volatile"],
+      options: ["DML", "DDL", "Query", "Relational Schema"],
   
-      correctAnswer: "const"
+      correctAnswer: "DML"
+  
+    },
+  
+    {
+      question: " Which of the following can be considered as the maximum size that is supported by FAT?",
+  
+      options: ["8GB", "4GB", "4TB", "None of the above"],
+  
+      correctAnswer: "4GB"
   
     },
   
     {
   
-       question: "What is the result of logical or relational expression in C?",
+       question: "Which of the following can be considered as the maximum size that is supported by NTFS?",
   
-       options: ["True or False", "0 or 1", "0", "None"],
+       options: ["4GB", "16TB", "64TB", "8TB"],
   
-       correctAnswer: "0 or 1"
-  
-    },
-  
-    {
-  
-      question:"Which operator is used for bitwise AND in C?",
-  
-      options:["&&","||","&","|"],
-  
-      correctAnswer:"&"
+      correctAnswer: "4GB"
   
     },
   
     {
   
-        question:"What is the result of the following expression: 5 > 3 && 2 < 4?",
+       question: "A huge collection of the information or data accumulated form several different sources is known as ________:",
   
-        options:["True","False","1","0"],
+       options: ["Data Management", "Data Mining", "Data Warehouse", "Both B and C"],
   
-        correctAnswer:"1"
+       correctAnswer: "Data Warehouse"
+  
+    },
+  
+    {
+  
+      question:"Which of the following can be used to extract or filter the data & information from the data warehouse?",
+  
+      options:["Data redundancy","Data recovery tool","Data mining","Both B and C"],
+  
+      correctAnswer:"Data mining"
+  
+    },
+  
+    {
+  
+        question:"Which one of the following refers to the copies of the same data (or information) occupying the memory space at multiple places.",
+  
+        options:["Data Repository","Data Inconsistency","Data Mining","Data Redundancy"],
+  
+        correctAnswer:"Data Redundancy"
   
       },
   
     {
   
-      questio:"Which of the following is not a valid variable name in Java?",
+      questio:"Which one of the following refers to the 'data about data'?",
   
-        options:["total","_sum","valued_1","1valued"],
+        options:["Directory","Sub Data","Warehouse","Meta Data"],
   
-        correctAnswer:"1valued"
+        correctAnswer:"Meta Data"
   
       },
   
     {
   
-      question:"Identify the return type of a method that does not return any value",
+      question:"Which of the following refers to the level of data abstraction that describes exactly how the data actually stored?",
   
-      options:["int","void","double","none"],
+      options:["Conceptual Level","Physical Level","File Level","Logical Level"],
   
-         correctAnswer:"void"
+         correctAnswer:"Physical Level"
   
        },
   
     {
   
-       question:"Output of Math.floor(3.6)?",
+       question:" To which of the following the term 'DBA' referred?",
   
-      options:["3","3.0","4","4.0"],
+      options:["Data Bank Administrator","Database Administrator","Data Administrator","None of the above"],
   
-         correctAnswer:"3.0"
-  
-      },
-  
-    {
-  
-      question:"Number of primitive data types in Java are?",
-  
-      options:["6","7","8","9"],
-  
-      correctAnswer:"7"
+         correctAnswer:"Database Administrator"
   
       },
   
     {
   
-      question:"What is the size of float and double in java?",
+      question:" In general, a file is basically a collection of all related______.",
   
-      options:["32 and 64","32 and 32","64 and 64","64 and 32"],
+      options:["Rows & Columns","Fields","Database","Records"],
   
-      correctAnswer:"32 and 64"
-  
-      },
-  
-    {
-  
-      question:"What is the default value of an instance variable of type int in Java?",
-  
-      options:["0","NULL","\0","Undefined"],
-  
-      correctAnswer:"0"
+      correctAnswer:"Records"
   
       },
   
     {
   
-      question:"Which of the following is not a standard data type in C?",
+      question:"Rows of a relation are known as the _______.",
   
-      options:["int","char","boolean","float"],
+      options:["Degree","Tuples","Entity","All of the above"],
   
-      correctAnswer:"boolean"
+      correctAnswer:"All of the above"
   
       },
   
     {
   
-      question:"	Which of the following is not a Java features?",
+      question:"Which of the following refers to the number of tuples in a relation?",
   
-      options:["Dynamic","WORA","Use of pointers","Object-oriented"],
+      options:["Entity","Column","Cardinality","None of the above"],
   
-      correctAnswer:"Use of pointers"
+      correctAnswer:"Cardinality"
+  
+      },
+  
+    {
+  
+      question:"Which one of the following is a type of Data Manipulation Command?",
+  
+      options:["Create","char","Delete","All of the above"],
+  
+      correctAnswer:"Delete"
+  
+      },
+  
+    {
+  
+      question:"Which of the following command is a type of Data Definition language command?",
+  
+      options:["Create","Update","Delete","Merge"],
+  
+      correctAnswer:"Create"
   
       },
   
       {
   
-          question:"Which Keyword is used to define a constant in C?",
+          question:"Which of the following is a top-down approach in which the entity's higher level can be divided into two lower sub-entities?",
   
-          options:["constant","const","define","static"],
+          options:["Aggregation","Generalization","Specialization","All of the above"],
   
-          correctAnswer:"const"
+          correctAnswer:"Specialization"
   
         },
   
       {
   
-        question:"Which function is used to find the length of a string in C?",
+        question:" In which one of the following, the multiple lower entities are grouped (or combined) together to form a single higher-level entity?",
   
-          options:["strlen()","strlength()","length()","size()"],
+          options:["Specialization","Generalization","Aggregation","None of the above"],
   
-          correctAnswer:"strlen()"
+          correctAnswer:"Generalization"
   
       },
   
       {
   
-      question:"Which of the following data types has the largest range in C?",
+      question:"In a relation database, every tuples divided into the fields are known as the______.",
   
-      options:["int","char","double","float"],
+      options:["Queries","Domains","Relations","All of the above"],
   
-           correctAnswer:"double"
+           correctAnswer:"Domains"
   
         },
   
       {
   
-      question:"Which of the following is used to store a single character in C?",
+      question:"In the relational table, which of the following can also be represented by the term 'attribute'?",
   
-      options:["String","Char","character","text"],
+      options:["Entity","Row","Column","Both B &C"],
   
-           correctAnswer:"Char"
+           correctAnswer:"Column"
   
         },
   
       {
   
-      question:"Which of the following is not a valid C loop?",
+      question:"Which of the following refers to the number of attributes in a relation?",
   
-      options:["for","do-while","while","foreach"],
+      options:["Degree","Row","Column","All of the above"],
   
-      correctAnswer:"foreach"
-  
-      },
-  
-      {
-  
-      question:"	Exception created by try block is caught in which block?",
-  
-      options:["catch","throw","final","none"],
-  
-      correctAnswer:"catch"
+      correctAnswer:"Degree"
   
       },
   
       {
   
-      question:"Automatic type conversion is possible in which of the possible cases?",
+      question:"Which one of the following command is used to delete the existing row in a table?",
   
-      options:["byte to int","int to long","long to int","short to int"],
+      options:["Delete","Update","Insert","none"],
   
-      correctAnswer:"int to long"
-  
-      },
-  
-      {
-  
-      question:"Arrays in java are-",
-  
-      options:["Object references","object","Primitive data type","None"],
-  
-        correctAnswer:"object"
+      correctAnswer:"Delete"
   
       },
   
       {
   
-      question:"When is the object created with new keyword?",
+      question:"Which of the following commands is used to save any transaction permanently into the database?",
   
-      options:["At run time","At compile time","Depends on the code","None"],
+      options:["Commit","Rollback","Savepoint","None of the above"],
   
-        correctAnswer:"At run time"
+      correctAnswer:"Commit"
+  
+      },
+  
+      {
+  
+      question:"Which one of the following commands is used for removing (or deleting) a relation forms the SQL database?",
+  
+      options:["Delete","Drop","Remove","All of the above"],
+  
+        correctAnswer:"Delete"
+  
+      },
+  
+      {
+  
+      question:"Which one of the following commands is used to restore the database to the last committed state?",
+  
+      options:["Savepoint","Rollback","Commit","Both A & B"],
+  
+        correctAnswer:"Rollback"
   
         },
   
         {
   
-            question:"compareTo() returns",
+            question:"The database management system can be considered as the collection of ______ that enables us to create and maintain the database.",
   
-            options:["True","False","An int value","None"],
+            options:["Translators","Programs","Keys","Language activity"],
   
-            correctAnswer:"An int value"
+            correctAnswer:"Programs"
   
           },
   
         {
   
-          question:"To which of the following does the class string belong to?",
+          question:"The term 'DFD' stands for?",
   
-            options:["java.lang","java.awt","java.applet","java.string"],
+            options:["Data file diagram","Data flow document","Data flow diagram","None of the above"],
   
-            correctAnswer:"java.lang"
+            correctAnswer:"Data flow diagram"
   
         },
   
         {
   
-        question:"Where does the system stores parameters and local variables whenever a method is invoked?",
+        question:"Which of the following refers collection of the information stored in a database at a specific time?",
   
-        options:["Heap","Stack","Tree","Array"],
+        options:["Independence","Instance of the database","Schema","Data domain"],
   
-             correctAnswer:"Stack"
+             correctAnswer:"Instance of the database"
   
           },
   
         {
   
-        question:"Identify the modifier which cannot be used for constructor?",
+        question:"Which one of the following refers to the total view of the database content?",
   
-        options:["public","protected","private","static"],
+        options:["Conceptual view","Physical view","Internal view","External view"],
   
-             correctAnswer:"static"
+             correctAnswer:"Conceptual view"
   
           },
   
         {
   
-        question:"What is Runnable?",
+        question:"The architecture of a database can be viewed as the ________",
   
-        options:["Abstract class","Interface","Class","Method"],
+        options:["One level","Two-level","Three-level","Four level"],
   
-        correctAnswer:"Interface"
-  
-        },
-  
-        {
-  
-        question:"Which of the following is used to find and fix bugs in the program?",
-  
-        options:["JDK","JRE","JVM","JDB"],
-  
-        correctAnswer:"JVM"
+        correctAnswer:"Three-level"
   
         },
   
         {
   
-        question:"Which component is used to compile, debug and execute the java programs?",
+        question:"In the relation model, the relation are generally termed as ________",
   
-        options:["JRE","JVM","JIT","JDK"],
+        options:["Tuples","Attributes","Rows","Tables"],
   
-        correctAnswer:"JDK"
-  
-        },
-  
-        {
-  
-        question:"What is the extension of java code files?",
-  
-        options:[".txt",".js",".class",".java"],
-  
-          correctAnswer:".java"
+        correctAnswer:"Tables"
   
         },
   
         {
   
-        question:"Which of the following is a superclass of every class in Java?",
+        question:"Which of the following keys is generally used to represents the relationships between the tables?",
   
-        options:["ArrayList","Abstract class","Object class","String"],
+        options:["Primary key","Foreign key","Secondary key","None of the above"],
   
-          correctAnswer:"Object class"
+        correctAnswer:"Foreign key"
+  
+        },
+  
+        {
+  
+        question:"Which of the following levels is considered as the level closed to the end-users?",
+  
+        options:["Internal Level","External Level","Conceptual Level","Physical Level"],
+  
+          correctAnswer:"External Level"
+  
+        },
+  
+        {
+  
+        question:"A computer security protocol for logging-in can be considered as the example of the ______ component of an information system.",
+  
+        options:["Data","Software","Procedure","Hardware"],
+  
+          correctAnswer:"Procedure"
   
           },
   
           {
   
-              question:"Which of the following is not an OOPS concept in Java?",
+              question:"Which one of the following keyword is used to find out the number of values in a column?",
   
-              options:["Polymorphism","Inheritance","Compilation","Encapsulation"],
+              options:["TOTAL","COUNT","SUM","ADD"],
   
-              correctAnswer:"Compilation"
+              correctAnswer:"COUNT"
   
             },
   
           {
   
-            question:"Which of these keywords are used for the block to be examined for exceptions?",
+            question:"Which one of the following commands is used to modify a column inside a table?",
   
-              options:["check","throw","catch","try"],
+              options:["Drop","Update","Alter","Set"],
   
-              correctAnswer:"try"
-  
-          },
-  
-          {
-  
-          question:"In Java, how should class names be written?",
-  
-          options:["CamelCase","snake_case","pascalCase","None"],
-  
-               correctAnswer:"CamelCase"
-  
-            },
-  
-          {
-  
-          question:"Which of these is a single-line comment in Java?",
-  
-          options:["/comment/","//comment","/* comment */","%Comment"],
-  
-               correctAnswer:"//comment"
-  
-            },
-  
-          {
-  
-          question:"Which data type would be best for storing a person's age in Java?",
-  
-          options:["int","double","long","byte"],
-  
-          correctAnswer:"byte"
+              correctAnswer:"Alter"
   
           },
   
           {
   
-          question:"What is the default value of a boolean variable in Java?",
+          question:"Who created the first DBMS?",
   
-          options:["trye","false","0","null"],
+          options:["Edgar Frank Codd","Charles Bachman","Charles Babbage","Sharon B. Codd"],
+  
+               correctAnswer:"Charles Bachman"
+  
+            },
+  
+          {
+  
+          question:"Which of the following is not a type of database?",
+  
+          options:["Hierarchical","Network","Distributed","Decentralized"],
+  
+               correctAnswer:"Decentralized"
+  
+            },
+  
+          {
+  
+          question:"In which of the following formats data is stored in the database management system?",
+  
+          options:["Image","Text","Table","Graph"],
+  
+          correctAnswer:"Table"
+  
+          },
+  
+          {
+  
+          question:"Which of the following is not an example of DBMS?",
+  
+          options:["MySQL","Microsoft Acess","IBM DB2","Google"],
   
           correctAnswer:"false"
   
@@ -391,61 +391,61 @@ const quizQuestions = [
   
           {
   
-          question:"What is the result of this operation in Java:(int)(7.9)?",
+          question:"Which of the following is a component of the DBMS?",
   
-          options:["7","7.9","8","9"],
+          options:["Data","Data Languages","Data Manager","All of the above"],
   
-          correctAnswer:"7"
+          correctAnswer:"All of the above"
   
           },
   
           {
   
-          question:"Which keyword is used to define a constant variable in Java?",
+          question:"Which of the following is known as a set of entities of the same type that share same properties, or attributes?",
   
-          options:["final","static","const","immutable"],
+          options:["Relation set","Tuples","Entity set","Entity Relation model"],
   
-            correctAnswer:"final"
+            correctAnswer:"Entity set"
   
     },
   
    {
   
-      question:"Identify the interface which is used to declare core methods in java?",
+      question:"What is information about data called?",
   
-      options:["Comparator","EventListener","Set","Collection"],
+      options:["Hyper data","Tera data","Meta data","Relations"],
   
-      correctAnswer:"Collection"
+      correctAnswer:"Meta data"
   
     },
   
     {
   
-    question:"What does the operator >> do?",
+    question:"The ability to query data, as well as insert, delete, and alter tuples, is offered by ____________",
   
-    options:["Right-Shift","Left-Shift","shift","None"],
+    options:["TCL","DCL","DDL","DML"],
   
-    correctAnswer:"Right-Shift"
+    correctAnswer:"DML"
   
      },
   
      {
   
-     question:"Function to find length of the string?",
+     question:" ______________ is a set of one or more attributes taken collectively to uniquely identify a record.",
   
-     options:["length()","len()","len","length"],
+     options:["Primary Key","Foreign key","Super key","Candidate key"],
   
-     correctAnswer:"length()"
+     correctAnswer:"Super key"
   
       },
   
       {
   
-      question:"Function to find length of the array?",
+      question:"Which command is used to remove a relation from an SQL?",
   
-      options:["length()","len()","len","length"],
+      options:["Drop table","Delete","Purge","Remove"],
   
-      correctAnswer:"length"
+      correctAnswer:"Drop table"
   
        },
   
@@ -453,151 +453,367 @@ const quizQuestions = [
   
    {
   
-      question:"What is an example of iteration in C?",
+      question:"_________________ operations do not preserve non-matched tuples.",
   
-      options: ["for", "while", "do-while", "All of the mentioned"],
+      options: ["Left outer join", "Inner join", "Natural join", "Right outer join"],
   
-      correctAnswer: "All of the mentioned"
-  
-    },
-  
-    {
-  
-      question: "The C-preprocessors are specified with _________ symbol.",
-  
-      options: ["#", "$", "&", "*"],
-  
-      correctAnswer: "#"
+      correctAnswer: "Inner join"
   
     },
   
     {
   
-       question:"Which of the following are C preprocessors?",
+      question: "After groups have been established, SQL applies predicates in the ___________ clause, allowing aggregate functions to be used.",
   
-       options: ["#ifdef", "#define", "#endif", "All of the mentioned"],
+      options: ["Where", "Having", "Group by", "With"],
   
-       correctAnswer: "All of the mentioned"
+      correctAnswer: "Having"
   
     },
   
     {
   
-      question:"Which of the following return-type cannot be used for a function in C?",
+       question:"Which of the following is not the utility of DBMS?",
   
-      options: ["char *", "struct", "void", "None of the mentioned"],
+       options: ["Backup", "Data Loading", "Process Organization", "File organization"],
   
-      correctAnswer: "None of the mentioned"
+       correctAnswer: "Process Organization"
   
-     },
+    },
   
-     {
+    {
   
-       question:"What is the sizeof(char) in a 32-bit C compiler?",
+      question:"Which of the following is the best way to represent the attributes in a large db?",
   
-       options: ["1 bit", "2 bits", "1 byte", "2 bytes"],
+      options: ["Dot representation", "Concatenation", "Relational-and", "All of the mentioned"],
   
-       correctAnswer: "1 byte"
-  
-     },
-  
-     {
-  
-        question: "Which of these is NOT a relational or logical operator?",
-  
-        options: ["=", "||", "==", "!="],
-  
-        correctAnswer: "="
+      correctAnswer: "Concatenation"
   
      },
   
      {
   
-      question: "Which one of the following is a loop construct that will always be executed once?",
+       question:"Which of the following functions construct histograms and use buckets for ranking?",
   
-      options: ["for", "while", "switch", "do while"],
+       options: ["Ntil()", "Newtil()", "Rank()", "All of the mentioned"],
   
-      correctAnswer: "do while"
-  
-     },
-  
-     {
-  
-      question: "Directives are translated by the ___________.",
-  
-      options: ["Pre-processor", "Compiler", "Linker", "Editor"],
-  
-      correctAnswer: "Pre-processor"
+       correctAnswer: "Ntil()"
   
      },
   
      {
   
-      question: "while(condition); -justify the given statement?",
+        question: "Which of the following is known as the process of viewing cross-tab with a fixed value of one attribute?",
   
-      options: [ "Invalid statement", "Valid statement","Syntax error", "None of the mentioned"],
+        options: ["Dicing", "Pivoting", "Slicing", "Both Pivoting and Dicing"],
   
-      correctAnswer: "Valid statement"
-  
-     },
-  
-     {
-  
-      question: "The binary equivalent of 50 is _____________.",
-  
-      options: ["110010","1010110","101","101.011.00.00"],
-  
-      correctAnswer: "110010"
+        correctAnswer: "Slicing"
   
      },
   
      {
   
-       question: "Which function is often used to output values and print text?",
+      question: "For designing a normal RDBMS which of the following normal form is considered adequate?",
   
-       options: ["printf()","output()","write()","printword()"],
+      options: ["4NF", "3NF", "2NF", "5NF"],
   
-       correctAnswer: "printf()"
+      correctAnswer: "3NF"
+  
+     },
+  
+     {
+  
+      question: "The oldest DB model is _______________",
+  
+      options: ["Network", "Physical", "Hierarchical", "Relational"],
+  
+      correctAnswer: "Hierarchical"
+  
+     },
+  
+     {
+  
+      question: "A major goal of the db system is to minimize the number of block transfers between the disk and memory. Which of the following helps in achieving this goal??",
+  
+      options: [ "Secondary storage", "Storage","Catalog", "Buffer"],
+  
+      correctAnswer: "Buffer"
+  
+     },
+  
+     {
+  
+      question: "A view of database that appears to an application program is known as",
+  
+      options: ["Schema","Subschema","Virtual table","Index Table"],
+  
+      correctAnswer: "Subschema"
+  
+     },
+  
+     {
+  
+       question: "Which operation is used to extract specified columns from a table?",
+  
+       options: ["Project","Join","Extract","Substitute"],
+  
+       correctAnswer: "Project"
   
       },
   
      {
   
-       question: "Which format specifier is often used to print integers?",
+       question: "Relations produced from E - R Model will always be in ________.",
   
-       options: ["%f","%d","%s","%c"],
+       options: ["1 NF","2 NF","3 NF","4 NF"],
   
-       correctAnswer: "%d"
-  
-      },
-  
-      {
-  
-        question: "Which keyword is used to return a value inside a function?",
-  
-        options: ["break","void","get","return"],
-  
-        correctAnswer: "return"
-  
-      },
-  
-      {
-  
-        question: "Which statement can be used to select one of many code blocks to be executed?",
-  
-        options: ["break","when","default","switch"],
-  
-        correctAnswer: "switch"
+       correctAnswer: "1 NF"
   
       },
   
       {
   
-        question: "for(;;) - output for the given code",
+        question: "Consider the relation R (ABCDE): FD = { A → B, B → C, C → D, D → E} Find out the highest normal form.",
   
-        options: ["Infinite loop","1","0","Syntax-error"],
+        options: ["1 NF","2 NF","3 NF","BCNF"],
   
-        correctAnswer: "Infinite loop"
+        correctAnswer: "2 NF"
+  
+      },
+  
+      {
+  
+        question: "__________ rules used to limit the volume of log information that has to be handled and processed in the event of system failure involving the loss of volatile information.",
+  
+        options: ["Write-ahead log","Check-pointing","Log buffer","Thomas"],
+  
+        correctAnswer: "Check-pointing"
+  
+      },
+  
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following is the highest isolation level in transaction management?",
+  
+        options: ["Serializable","Repeated Read","Committed Read","Uncommitted Read"],
+  
+        correctAnswer: "Serializable"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
+  
+      },	
+      {
+  
+        question: "Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)",
+  
+        options: ["RAID 1","RAID 3","RAID 4","RAID 5"],
+  
+        correctAnswer: "RAID 1"
   
       },		  
   

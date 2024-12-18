@@ -10,15 +10,24 @@
     <div class="container">
         <h1>COMPILER DESIGN</h1>
         <button class="btn test-skills" onclick="window.location.href='CD_quizz.html'">TEST YOUR SKILLS</button>
-        <select class="dropdown">
+        <select class="dropdown" id="channelDropdown">
             <option selected disabled>BEST PREFERRED YOUTUBE CHANNELS</option>
-            <option value="channel1">Channel 1</option>
-            <option value="channel2">Channel 2</option>
-            <option value="channel3">Channel 3</option>
-            <!-- Add more options as needed -->
+            <option value="https://www.youtube.com/watch?v=5ZmFlxrNaN8&list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q">Neso Academy</option>
+            <option value="https://www.youtube.com/watch?v=CcnhLKPmPEM&list=PLXj4XH7LcRfC9pGMWuM6UWE3V4YZ9TZzM">Sudhakar Atchala</option>
+            <option value="https://www.youtube.com/watch?v=OQCjakjCJu4&list=PLmXKhU9FNesSmu-_DKC7APRoFkaQvGurx">KnowledgeGATE by Sanchit Sir</option>
+            <!-- Add more options with appropriate URLs -->
         </select>
-    
     </div>
-    <script src="script.js"></script>
+    <script>
+        // JavaScript to handle redirection
+        const dropdown = document.getElementById('channelDropdown');
+
+        dropdown.addEventListener('change', function () {
+            const selectedValue = this.value;
+            if (selectedValue) {
+                window.location.href = selectedValue; // Redirects to the selected YouTube channel
+            }
+        });
+    </script>
 </body>
 </html>

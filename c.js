@@ -456,7 +456,7 @@ const quizQuestions = [
 
     options: ["Looping code", "Code that operates when called", "Unknown variable", "All of the above"],
 
-    correctAnswer: "Code that operates when called "
+    correctAnswer: "Code that operates when called"
 
   },
 
@@ -617,7 +617,7 @@ const quizQuestions = [
 
       options: ["Integer value","unkown value","Decimal value","all of the above"],
 
-      correctAnswer: "Decimal value "
+      correctAnswer: "Decimal value"
 
     },	
 
@@ -627,7 +627,7 @@ const quizQuestions = [
 
       options: ["20","40","44","45"],
 
-      correctAnswer: "45 "
+      correctAnswer: "45"
 
     },	
 
@@ -637,7 +637,7 @@ const quizQuestions = [
 
       options: ["studio.h","stdlib.h","conio.h","All of the above"],
 
-      correctAnswer: " conio.h"
+      correctAnswer: "conio.h"
 
     },	
 
@@ -647,7 +647,7 @@ const quizQuestions = [
 
       options: ["Int bat;","Float cat_a","Int @rat","All of the above"],
 
-      correctAnswer: "Int @rat "
+      correctAnswer: "Int @rat"
 
     },	
 
@@ -657,7 +657,7 @@ const quizQuestions = [
 
       options: ["Unknown values","Static or constant values","Dynamic variable values","All of the above"],
 
-      correctAnswer: " Static or constant values"
+      correctAnswer: "Static or constant values"
 
     },	
 
@@ -667,7 +667,7 @@ const quizQuestions = [
 
       options: ["The 1950s","The 1960s","The 1980s","The 1970s"],
 
-      correctAnswer: "The 1970s "
+      correctAnswer: "The 1970s"
 
     },	
 
@@ -677,7 +677,7 @@ const quizQuestions = [
 
       options: ["C++","Combined programming language","python","all of the above"],
 
-      correctAnswer: "Combined programming language "
+      correctAnswer: "Combined programming language"
 
     },	
 
@@ -687,7 +687,7 @@ const quizQuestions = [
 
       options: ["while","for","if-else","do-while"],
 
-      correctAnswer: " if-else"
+      correctAnswer: "if-else"
 
     },	
 
@@ -697,7 +697,7 @@ const quizQuestions = [
 
       options: ["rand(time(NULL));","rand(10);","rand();","all of the above"],
 
-      correctAnswer: " rand();"
+      correctAnswer: "rand();"
 
     },	
 
@@ -707,7 +707,7 @@ const quizQuestions = [
 
       options: ["stdlib.h","assert.h","stdio.h","stdarg.h"],
 
-      correctAnswer: " stdlib.h"
+      correctAnswer: "stdlib.h"
 
     },	
 
@@ -717,7 +717,7 @@ const quizQuestions = [
 
       options: ["r","rb","w","all of the above"],
 
-      correctAnswer: " all of the above"
+      correctAnswer: "all of the above"
 
     },	
 
@@ -727,7 +727,7 @@ const quizQuestions = [
 
       options: ["0","1","2","8"],
 
-      correctAnswer: " 0"
+      correctAnswer: "0"
 
     },	
 
@@ -738,7 +738,7 @@ const quizQuestions = [
 
       options: ["close()","close()","file_close()","endfile()"],
 
-      correctAnswer: "fclose() "
+      correctAnswer: "fclose()"
 
     },	
 
@@ -758,7 +758,7 @@ const quizQuestions = [
 
       options: ["<stdlib.h>","<memory.h>","<malloc.h>","<stdio.h>"],
 
-      correctAnswer: "<stdlib.h> "
+      correctAnswer: "<stdlib.h>"
 
     },	
 
@@ -768,7 +768,7 @@ const quizQuestions = [
 
       options: ["&&","&","and","AND"],
 
-      correctAnswer: "&& "
+      correctAnswer: "&&"
 
     },	
 
@@ -778,7 +778,7 @@ const quizQuestions = [
 
       options: ["getc()","read()","getchar()","scan()"],
 
-      correctAnswer: "getchar() "
+      correctAnswer: "getchar()"
 
     },	
 
@@ -788,7 +788,7 @@ const quizQuestions = [
 
       options: ["1","2","4","depends on the system"],
 
-      correctAnswer: "1 "
+      correctAnswer: "1"
 
     },	
 
@@ -798,7 +798,7 @@ const quizQuestions = [
       
       options: ["logical OR","logical AND","bitwise left shift","bitwise right shift"],
 
-      correctAnswer: "bitwise left shift "
+      correctAnswer: "bitwise left shift"
 
     },	
 
@@ -808,7 +808,7 @@ const quizQuestions = [
 
       options: ["memcmp()","memcomp()","memcompare()","comparemem()"],
 
-      correctAnswer: " "
+      correctAnswer: "memcmp()"
 
     },	
 
@@ -818,7 +818,7 @@ const quizQuestions = [
 
       options: ["& (ampersand)","* (asterisk)","@ (at)","# (hash)"],
 
-      correctAnswer: " & (ampersand)"
+      correctAnswer: "& (ampersand)"
 
     },	
 
@@ -828,7 +828,7 @@ const quizQuestions = [
 
       options: ["<io.h>","<fileio.h>","<stdio.h>","<inputoutput.h>"],
 
-      correctAnswer: "<stdio.h> "
+      correctAnswer: "<stdio.h>"
 
     },	
 
@@ -838,7 +838,7 @@ const quizQuestions = [
 
       options: ["| (pipe)","|& (pipe-ampersand)","|* (pipe-asterisk)","|| (logical OR)"],
 
-      correctAnswer: "| (pipe) "
+      correctAnswer: "| (pipe)"
 
     },	
 
@@ -848,7 +848,7 @@ const quizQuestions = [
 
       options: ["+","-","*","@"],
 
-      correctAnswer: "@ "
+      correctAnswer: "@"
 
     },	
 
@@ -858,7 +858,7 @@ const quizQuestions = [
 
       options: ["high","low","middle","machine"],
 
-      correctAnswer: "middle "
+      correctAnswer: "middle"
 
     },	
 
@@ -868,7 +868,7 @@ const quizQuestions = [
 
       options: ["Object Oriented "," Procedural ","Bit level language "," Functional "],
 
-      correctAnswer: "Procedural "
+      correctAnswer: "Procedural"
 
     },	
 
@@ -876,9 +876,9 @@ const quizQuestions = [
 
       question: "C language is used in the development of .?",
 
-      options: [" Databases ","Graphic applications"," Word Processors "," All of the above"],
+      options: [" Databases ","Graphic applications"," Word Processors ","All of the above"],
 
-      correctAnswer: " All of the above  "
+      correctAnswer: "All of the above "
 
     },	
 
@@ -888,7 +888,7 @@ const quizQuestions = [
 
       options: ["Statements ","functions","variables","all of the above"],
 
-      correctAnswer: "all of the above "
+      correctAnswer: "all of the above"
 
     },	
 
@@ -898,7 +898,7 @@ const quizQuestions = [
 
       options: ["Float","Int","Long","double"],
 
-      correctAnswer: " double"
+      correctAnswer: "double"
 
     },	
 
@@ -906,9 +906,9 @@ const quizQuestions = [
 
       question: "Range of signed char and unsigned char are.? ",
 
-      options: [" -128 to +127 & 0 to 255"," 0 to 255 & -128 to +127","-128 to -1 & 0 to +127 "," 0 to +127 & -128 to -1"],
+      options: ["-128 to +127 & 0 to 255"," 0 to 255 & -128 to +127","-128 to -1 & 0 to +127 "," 0 to +127 & -128 to -1"],
 
-      correctAnswer: "-128 to +127 0 to 255  "
+      correctAnswer: "-128 to +127 0 to 255 "
 
     },	
 
@@ -918,7 +918,7 @@ const quizQuestions = [
 
       options: ["4,8,16","4,8,10","2,4,6","4,6,8"],
 
-      correctAnswer: " 4,8,10"
+      correctAnswer: "4,8,10"
 
     },	
 
@@ -928,7 +928,7 @@ const quizQuestions = [
 
       options: [" Type "," Storage Class"," Both","none"],
 
-      correctAnswer: " Both"
+      correctAnswer: "Both"
 
     },	
 
@@ -938,7 +938,7 @@ const quizQuestions = [
 
       options: ["static","auto","register&extern","all of the above"],
 
-      correctAnswer: "all of the above "
+      correctAnswer: "all of the above"
 
     },	
 
@@ -948,7 +948,7 @@ const quizQuestions = [
 
       options: ["static","auto","register","extern"],
 
-      correctAnswer: "auto "
+      correctAnswer: "auto"
 
     },	
 
@@ -958,7 +958,7 @@ const quizQuestions = [
 
       options: ["ROM","RAM","CPU","COMPILER"],
 
-      correctAnswer: "RAM "
+      correctAnswer: "RAM"
 
     },	
 
@@ -968,7 +968,7 @@ const quizQuestions = [
 
       options: ["auto","static","register","extern"],
 
-      correctAnswer: "extern "
+      correctAnswer: "extern"
 
     },	
 
@@ -978,7 +978,7 @@ const quizQuestions = [
 
       options: ["&","|","^","~"],
 
-      correctAnswer: " ~"
+      correctAnswer: "~"
 
     },	
 
@@ -988,7 +988,7 @@ const quizQuestions = [
 
       options: [" Division by 2","Multiplying by 2","Adding 2 ","Subtracting 2"],
 
-      correctAnswer: "Multiplying by 2  "
+      correctAnswer: "Multiplying by 2"
 
     },	
 
@@ -996,9 +996,9 @@ const quizQuestions = [
 
       question: " Right Shift operation >> is equivalent to .? ",
 
-      options: [" Division by 2","Multiplying by 2","Adding 2 ","Subtracting 2"],
+      options: ["Division by 2","Multiplying by 2","Adding 2","Subtracting 2"],
 
-      correctAnswer: " Division by 2"
+      correctAnswer: "Division by 2"
       
 
     },	
@@ -1009,7 +1009,7 @@ const quizQuestions = [
 
       options: ["?:",":?",":<","<:"],
 
-      correctAnswer: "?: "
+      correctAnswer: "?:"
 
     },	
 
@@ -1019,7 +1019,7 @@ const quizQuestions = [
 
       options: ["self function","auto function","recursive function","static function"],
 
-      correctAnswer: "recursive function "
+      correctAnswer: "recursive function"
 
     },	
 
@@ -1029,7 +1029,7 @@ const quizQuestions = [
 
       options: ["only one value","maximum of two vali=ues","maximum of three values","maximum of 8 values"],
 
-      correctAnswer: " only one value"
+      correctAnswer: "only one value"
 
     },	
 
@@ -1039,7 +1039,7 @@ const quizQuestions = [
 
       options: ["printf()","scanf()","show()","main()"],
 
-      correctAnswer: "main() "
+      correctAnswer: "main()"
 
     },	
 
@@ -1049,7 +1049,7 @@ const quizQuestions = [
 
       options: ["for","while","do-while","none"],
 
-      correctAnswer: " none"
+      correctAnswer: "none"
 
     },	
 
@@ -1059,7 +1059,7 @@ const quizQuestions = [
 
       options: [" int, long, float, double "," struct, enum","char","all of the above"],
 
-      correctAnswer: " all of the above"
+      correctAnswer: "all of the above"
 
     },	
 
@@ -1069,7 +1069,7 @@ const quizQuestions = [
 
       options: ["-1","0","1","2"],
 
-      correctAnswer: "0 "
+      correctAnswer: "0"
 
     },	
 
@@ -1079,7 +1079,7 @@ const quizQuestions = [
 
       options: ["1","2","5","10"],
 
-      correctAnswer: " 2"
+      correctAnswer: "2"
 
     },	
 
@@ -1089,7 +1089,7 @@ const quizQuestions = [
 
       options: ["Multi Data Array "," Multi Size Array ","Multi Dimensional Array "," Multi Byte Array "],
 
-      correctAnswer: "  Multi Dimensional Array "
+      correctAnswer: "Multi Dimensional Array "
 
     },	
 
@@ -1099,7 +1099,7 @@ const quizQuestions = [
 
       options: [" file ","FILE","FILEFP","filefp"],
 
-      correctAnswer: "FILE "
+      correctAnswer: "FILE"
 
     },	
 

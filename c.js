@@ -215,7 +215,7 @@ const quizQuestions = [
 
     options:["File inclusion","Selective inclusion","Conditional compilation","Recursive macros"],
 
-    correctAnswer:"Conditional macros"
+    correctAnswer:"Conditional compilation"
 
     },
 
@@ -456,7 +456,7 @@ const quizQuestions = [
 
     options: ["Looping code", "Code that operates when called", "Unknown variable", "All of the above"],
 
-    correctAnswer: "Code that operates when called"
+    correctAnswer: "Code that operates when called "
 
   },
 
@@ -617,7 +617,7 @@ const quizQuestions = [
 
       options: ["Integer value","unkown value","Decimal value","all of the above"],
 
-      correctAnswer: "Decimal value"
+      correctAnswer: "Decimal value "
 
     },	
 
@@ -627,7 +627,7 @@ const quizQuestions = [
 
       options: ["20","40","44","45"],
 
-      correctAnswer: "45"
+      correctAnswer: "45 "
 
     },	
 
@@ -667,7 +667,7 @@ const quizQuestions = [
 
       options: ["The 1950s","The 1960s","The 1980s","The 1970s"],
 
-      correctAnswer: "The 1970s"
+      correctAnswer: "The 1970s "
 
     },	
 
@@ -677,7 +677,7 @@ const quizQuestions = [
 
       options: ["C++","Combined programming language","python","all of the above"],
 
-      correctAnswer: "Combined programming language"
+      correctAnswer: "Combined programming language "
 
     },	
 
@@ -736,7 +736,7 @@ const quizQuestions = [
 
       question: "In C, which function is used to close a file?",
 
-      options: ["close()","close()","file_close()","endfile()"],
+      options: ["close()","fclose()","file_close()","endfile()"],
 
       correctAnswer: "fclose()"
 
@@ -876,9 +876,9 @@ const quizQuestions = [
 
       question: "C language is used in the development of .?",
 
-      options: [" Databases ","Graphic applications"," Word Processors ","All of the above"],
+      options: ["Databases","Graphic applications"," Word Processors","All of the above"],
 
-      correctAnswer: "All of the above "
+      correctAnswer: "All of the above"
 
     },	
 
@@ -904,17 +904,17 @@ const quizQuestions = [
 
     {
 
-      question: "Range of signed char and unsigned char are.? ",
+      question: "Range of signed char and unsigned char are__________? ",
 
-      options: ["-128 to +127 & 0 to 255"," 0 to 255 & -128 to +127","-128 to -1 & 0 to +127 "," 0 to +127 & -128 to -1"],
+      options: ["-128 to +127 & 0 to 255","0 to 255 & -128 to +127","-128 to -1 & 0 to +127 ","0 to +127 & -128 to -1"],
 
-      correctAnswer: "-128 to +127 0 to 255 "
+      correctAnswer: "-128 to +127 & 0 to 255"
 
     },	
 
     {
 
-      question: "Size of float, double and long double in Bytes are.? ",
+      question: "Size of float, double and long double in Bytes are____? ",
 
       options: ["4,8,16","4,8,10","2,4,6","4,6,8"],
 
@@ -924,9 +924,9 @@ const quizQuestions = [
 
     {
 
-      question: " Every C Variable must have.?",
+      question: " Every C Variable must have______?",
 
-      options: [" Type "," Storage Class"," Both","none"],
+      options: ["Type","Storage Class","Both","none"],
 
       correctAnswer: "Both"
 
@@ -944,7 +944,7 @@ const quizQuestions = [
 
     {
 
-      question: "What is the default C Storage Class for a variable.?",
+      question: "What is the default C Storage Class for a variable?",
 
       options: ["static","auto","register","extern"],
 
@@ -954,7 +954,7 @@ const quizQuestions = [
 
     {
 
-      question: " Variables of type auto, static and extern are all stored in .? ",
+      question: " Variables of type auto, static and extern are all stored in _________? ",
 
       options: ["ROM","RAM","CPU","COMPILER"],
 
@@ -964,7 +964,7 @@ const quizQuestions = [
 
     {
 
-      question: " Which among the following is a Global Variable.?",
+      question: " Which among the following is a Global Variable?",
 
       options: ["auto","static","register","extern"],
 
@@ -974,7 +974,7 @@ const quizQuestions = [
 
     {
 
-      question: "What is a Single Operand Operator below.?",
+      question: "What is a Single Operand Operator below?",
 
       options: ["&","|","^","~"],
 
@@ -984,9 +984,9 @@ const quizQuestions = [
 
     {
 
-      question: " Left Shift operation is equivalent to.?",
+      question: " Left Shift operation is equivalent to________?",
 
-      options: [" Division by 2","Multiplying by 2","Adding 2 ","Subtracting 2"],
+      options: ["Division by 2","Multiplying by 2","Adding 2","Subtracting 2"],
 
       correctAnswer: "Multiplying by 2"
 
@@ -994,9 +994,9 @@ const quizQuestions = [
 
     {
 
-      question: " Right Shift operation >> is equivalent to .? ",
+      question: " Right Shift operation >> is equivalent to __________ ",
 
-      options: ["Division by 2","Multiplying by 2","Adding 2","Subtracting 2"],
+      options: ["Division by 2","Multiplying by 2","Adding 2 ","Subtracting 2"],
 
       correctAnswer: "Division by 2"
       
@@ -1057,7 +1057,7 @@ const quizQuestions = [
 
       question: " What are the Types of Arrays.? ",
 
-      options: [" int, long, float, double "," struct, enum","char","all of the above"],
+      options: ["int, long, float, double "," struct, enum","char","all of the above"],
 
       correctAnswer: "all of the above"
 
@@ -1087,9 +1087,9 @@ const quizQuestions = [
 
       question: "Array of Arrays is also called.?",
 
-      options: ["Multi Data Array "," Multi Size Array ","Multi Dimensional Array "," Multi Byte Array "],
+      options: ["Multi Data Array","Multi Size Array","Multi Dimensional Array","Multi Byte Array"],
 
-      correctAnswer: "Multi Dimensional Array "
+      correctAnswer: "Multi Dimensional Array"
 
     },	
 
@@ -1097,7 +1097,7 @@ const quizQuestions = [
 
       question: " What is the keyword used to declare a C file pointer.?",
 
-      options: [" file ","FILE","FILEFP","filefp"],
+      options: ["file","FILE","FILEFP","filefp"],
 
       correctAnswer: "FILE"
 

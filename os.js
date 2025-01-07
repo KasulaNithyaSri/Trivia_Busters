@@ -1,605 +1,1330 @@
 const quizQuestions = [
 
-    {
-  
-      question: "Who is the father of C language?",
-  
-      options: ["Steve Jobs","James Gosling","Dennis Ritchi","Rasmus Lerdorf"],
-  
-      correctAnswer: "Dennis Ritchi"
-  
-    },
-  
-    {
-  
-      question: "Which of the following is not a valid C variable name?",
-  
-      options: ["int number;", "float number1;", "double _number;", "int $main;"],
-  
-      correctAnswer: "int $main;"
-  
-    },
-  
-    {
-      question: "All keywords in C are in ____________.",
-  
-      options: ["LowerCase letters", "UpperCase letters", "CamelCase letters", "None of the mentioned"],
-  
-      correctAnswer: "LowerCase letters"
-  
-    },
-  
-    {
-  
-       question: "Which keyword is used to prevent any changes in the variable within a C program?",
-  
-       options: ["immutable", "mutable", "const", "volatile"],
-  
-      correctAnswer: "const"
-  
-    },
-  
-    {
-  
-       question: "What is the result of logical or relational expression in C?",
-  
-       options: ["True or False", "0 or 1", "0", "None"],
-  
-       correctAnswer: "0 or 1"
-  
-    },
-  
-    {
-  
-      question:"Which operator is used for bitwise AND in C?",
-  
-      options:["&&","||","&","|"],
-  
-      correctAnswer:"&"
-  
-    },
-  
-    {
-  
-        question:"What is the result of the following expression: 5 > 3 && 2 < 4?",
-  
-        options:["True","False","1","0"],
-  
-        correctAnswer:"1"
-  
-      },
-  
-    {
-  
-      questio:"Which of the following is not a valid variable name in Java?",
-  
-        options:["total","_sum","valued_1","1valued"],
-  
-        correctAnswer:"1valued"
-  
-      },
-  
-    {
-  
-      question:"Identify the return type of a method that does not return any value",
-  
-      options:["int","void","double","none"],
-  
-         correctAnswer:"void"
-  
-       },
-  
-    {
-  
-       question:"Output of Math.floor(3.6)?",
-  
-      options:["3","3.0","4","4.0"],
-  
-         correctAnswer:"3.0"
-  
-      },
-  
-    {
-  
-      question:"Number of primitive data types in Java are?",
-  
-      options:["6","7","8","9"],
-  
-      correctAnswer:"7"
-  
-      },
-  
-    {
-  
-      question:"What is the size of float and double in java?",
-  
-      options:["32 and 64","32 and 32","64 and 64","64 and 32"],
-  
-      correctAnswer:"32 and 64"
-  
-      },
-  
-    {
-  
-      question:"What is the default value of an instance variable of type int in Java?",
-  
-      options:["0","NULL","\0","Undefined"],
-  
-      correctAnswer:"0"
-  
-      },
-  
-    {
-  
-      question:"Which of the following is not a standard data type in C?",
-  
-      options:["int","char","boolean","float"],
-  
-      correctAnswer:"boolean"
-  
-      },
-  
-    {
-  
-      question:"	Which of the following is not a Java features?",
-  
-      options:["Dynamic","WORA","Use of pointers","Object-oriented"],
-  
-      correctAnswer:"Use of pointers"
-  
-      },
-  
-      {
-  
-          question:"Which Keyword is used to define a constant in C?",
-  
-          options:["constant","const","define","static"],
-  
-          correctAnswer:"const"
-  
-        },
-  
-      {
-  
-        question:"Which function is used to find the length of a string in C?",
-  
-          options:["strlen()","strlength()","length()","size()"],
-  
-          correctAnswer:"strlen()"
-  
-      },
-  
-      {
-  
-      question:"Which of the following data types has the largest range in C?",
-  
-      options:["int","char","double","float"],
-  
-           correctAnswer:"double"
-  
-        },
-  
-      {
-  
-      question:"Which of the following is used to store a single character in C?",
-  
-      options:["String","Char","character","text"],
-  
-           correctAnswer:"Char"
-  
-        },
-  
-      {
-  
-      question:"Which of the following is not a valid C loop?",
-  
-      options:["for","do-while","while","foreach"],
-  
-      correctAnswer:"foreach"
-  
-      },
-  
-      {
-  
-      question:"	Exception created by try block is caught in which block?",
-  
-      options:["catch","throw","final","none"],
-  
-      correctAnswer:"catch"
-  
-      },
-  
-      {
-  
-      question:"Automatic type conversion is possible in which of the possible cases?",
-  
-      options:["byte to int","int to long","long to int","short to int"],
-  
-      correctAnswer:"int to long"
-  
-      },
-  
-      {
-  
-      question:"Arrays in java are-",
-  
-      options:["Object references","object","Primitive data type","None"],
-  
-        correctAnswer:"object"
-  
-      },
-  
-      {
-  
-      question:"When is the object created with new keyword?",
-  
-      options:["At run time","At compile time","Depends on the code","None"],
-  
-        correctAnswer:"At run time"
-  
-        },
-  
-        {
-  
-            question:"compareTo() returns",
-  
-            options:["True","False","An int value","None"],
-  
-            correctAnswer:"An int value"
-  
-          },
-  
-        {
-  
-          question:"To which of the following does the class string belong to?",
-  
-            options:["java.lang","java.awt","java.applet","java.string"],
-  
-            correctAnswer:"java.lang"
-  
-        },
-  
-        {
-  
-        question:"Where does the system stores parameters and local variables whenever a method is invoked?",
-  
-        options:["Heap","Stack","Tree","Array"],
-  
-             correctAnswer:"Stack"
-  
-          },
-  
-        {
-  
-        question:"Identify the modifier which cannot be used for constructor?",
-  
-        options:["public","protected","private","static"],
-  
-             correctAnswer:"static"
-  
-          },
-  
-        {
-  
-        question:"What is Runnable?",
-  
-        options:["Abstract class","Interface","Class","Method"],
-  
-        correctAnswer:"Interface"
-  
-        },
-  
-        {
-  
-        question:"Which of the following is used to find and fix bugs in the program?",
-  
-        options:["JDK","JRE","JVM","JDB"],
-  
-        correctAnswer:"JVM"
-  
-        },
-  
-        {
-  
-        question:"Which component is used to compile, debug and execute the java programs?",
-  
-        options:["JRE","JVM","JIT","JDK"],
-  
-        correctAnswer:"JDK"
-  
-        },
-  
-        {
-  
-        question:"What is the extension of java code files?",
-  
-        options:[".txt",".js",".class",".java"],
-  
-          correctAnswer:".java"
-  
-        },
-  
-        {
-  
-        question:"Which of the following is a superclass of every class in Java?",
-  
-        options:["ArrayList","Abstract class","Object class","String"],
-  
-          correctAnswer:"Object class"
-  
-          },
-  
-          {
-  
-              question:"Which of the following is not an OOPS concept in Java?",
-  
-              options:["Polymorphism","Inheritance","Compilation","Encapsulation"],
-  
-              correctAnswer:"Compilation"
-  
-            },
-  
-          {
-  
-            question:"Which of these keywords are used for the block to be examined for exceptions?",
-  
-              options:["check","throw","catch","try"],
-  
-              correctAnswer:"try"
-  
-          },
-  
-          {
-  
-          question:"In Java, how should class names be written?",
-  
-          options:["CamelCase","snake_case","pascalCase","None"],
-  
-               correctAnswer:"CamelCase"
-  
-            },
-  
-          {
-  
-          question:"Which of these is a single-line comment in Java?",
-  
-          options:["/comment/","//comment","/* comment */","%Comment"],
-  
-               correctAnswer:"//comment"
-  
-            },
-  
-          {
-  
-          question:"Which data type would be best for storing a person's age in Java?",
-  
-          options:["int","double","long","byte"],
-  
-          correctAnswer:"byte"
-  
-          },
-  
-          {
-  
-          question:"What is the default value of a boolean variable in Java?",
-  
-          options:["trye","false","0","null"],
-  
-          correctAnswer:"false"
-  
-          },
-  
-          {
-  
-          question:"What is the result of this operation in Java:(int)(7.9)?",
-  
-          options:["7","7.9","8","9"],
-  
-          correctAnswer:"7"
-  
-          },
-  
-          {
-  
-          question:"Which keyword is used to define a constant variable in Java?",
-  
-          options:["final","static","const","immutable"],
-  
-            correctAnswer:"final"
-  
-    },
-  
-   {
-  
-      question:"Identify the interface which is used to declare core methods in java?",
-  
-      options:["Comparator","EventListener","Set","Collection"],
-  
-      correctAnswer:"Collection"
-  
-    },
-  
-    {
-  
-    question:"What does the operator >> do?",
-  
-    options:["Right-Shift","Left-Shift","shift","None"],
-  
-    correctAnswer:"Right-Shift"
-  
-     },
-  
-     {
-  
-     question:"Function to find length of the string?",
-  
-     options:["length()","len()","len","length"],
-  
-     correctAnswer:"length()"
-  
-      },
-  
-      {
-  
-      question:"Function to find length of the array?",
-  
-      options:["length()","len()","len","length"],
-  
-      correctAnswer:"length"
-  
-       },
-  
-  
-  
-   {
-  
-      question:"What is an example of iteration in C?",
-  
-      options: ["for", "while", "do-while", "All of the mentioned"],
-  
-      correctAnswer: "All of the mentioned"
-  
-    },
-  
-    {
-  
-      question: "The C-preprocessors are specified with _________ symbol.",
-  
-      options: ["#", "$", "&", "*"],
-  
-      correctAnswer: "#"
-  
-    },
-  
-    {
-  
-       question:"Which of the following are C preprocessors?",
-  
-       options: ["#ifdef", "#define", "#endif", "All of the mentioned"],
-  
-       correctAnswer: "All of the mentioned"
-  
-    },
-  
-    {
-  
-      question:"Which of the following return-type cannot be used for a function in C?",
-  
-      options: ["char *", "struct", "void", "None of the mentioned"],
-  
-      correctAnswer: "None of the mentioned"
-  
-     },
-  
-     {
-  
-       question:"What is the sizeof(char) in a 32-bit C compiler?",
-  
-       options: ["1 bit", "2 bits", "1 byte", "2 bytes"],
-  
-       correctAnswer: "1 byte"
-  
-     },
-  
-     {
-  
-        question: "Which of these is NOT a relational or logical operator?",
-  
-        options: ["=", "||", "==", "!="],
-  
-        correctAnswer: "="
-  
-     },
-  
-     {
-  
-      question: "Which one of the following is a loop construct that will always be executed once?",
-  
-      options: ["for", "while", "switch", "do while"],
-  
-      correctAnswer: "do while"
-  
-     },
-  
-     {
-  
-      question: "Directives are translated by the ___________.",
-  
-      options: ["Pre-processor", "Compiler", "Linker", "Editor"],
-  
-      correctAnswer: "Pre-processor"
-  
-     },
-  
-     {
-  
-      question: "while(condition); -justify the given statement?",
-  
-      options: [ "Invalid statement", "Valid statement","Syntax error", "None of the mentioned"],
-  
-      correctAnswer: "Valid statement"
-  
-     },
-  
-     {
-  
-      question: "The binary equivalent of 50 is _____________.",
-  
-      options: ["110010","1010110","101","101.011.00.00"],
-  
-      correctAnswer: "110010"
-  
-     },
-  
-     {
-  
-       question: "Which function is often used to output values and print text?",
-  
-       options: ["printf()","output()","write()","printword()"],
-  
-       correctAnswer: "printf()"
-  
-      },
-  
-     {
-  
-       question: "Which format specifier is often used to print integers?",
-  
-       options: ["%f","%d","%s","%c"],
-  
-       correctAnswer: "%d"
-  
-      },
-  
-      {
-  
-        question: "Which keyword is used to return a value inside a function?",
-  
-        options: ["break","void","get","return"],
-  
-        correctAnswer: "return"
-  
-      },
-  
-      {
-  
-        question: "Which statement can be used to select one of many code blocks to be executed?",
-  
-        options: ["break","when","default","switch"],
-  
-        correctAnswer: "switch"
-  
-      },
-  
-      {
-  
-        question: "for(;;) - output for the given code",
-  
-        options: ["Infinite loop","1","0","Syntax-error"],
-  
-        correctAnswer: "Infinite loop"
-  
-      },		  
+    
+  {
+  
+    question: "Which of the following is the core of an operating system?",
+
+    options: ["Shell","Kernel","Command interpreter","Scheduler"],
+
+    correctAnswer: "Kernel"
+
+  },
+
+  
+  {
+
+    question: "Which operating system does not support multitasking?",
+
+    options: ["Windows","Unix","MS-DOS","Linux"],
+
+    correctAnswer: "MS-DOS"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is not an operating system?",
+
+    options: ["Windows","Linux","Oracle","DOS"],
+
+    correctAnswer: "Oracle"
+
+  },
+
+  
+  {
+
+    question: "Which scheduling algorithm is best suited for a time-shared operating system?",
+
+    options: ["First-Come-First-Served (FCFS)","Shortest Job Next (SJN)","Round Robin","Priority Scheduling"],
+
+    correctAnswer: "Round Robin"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is not a type of computer virus?",
+
+    options: ["Boot sector","File infector","Trojan horse","Macro virus"],
+
+    correctAnswer: "Trojan horse"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is used to manage the hardware and software resources of a computer?",
+
+    options: ["Operating System","Compiler","Interpreter","Assembler"],
+
+    correctAnswer: "Operating System"
+
+  },
+
+  
+  {
+
+    question: "What is a semaphore in operating system terms?",
+
+    options: ["A memory management technique","A synchronization tool","A scheduling algorithm","A type of hardware"],
+
+    correctAnswer: "A synchronization tool"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a real-time operating system?",
+
+    options: ["Windows 10","Unix","Linux","VxWorks"],
+
+    correctAnswer: "VxWorks"
+
+  },
+
+  
+  {
+
+    question: "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+
+    options: ["FCFS scheduling","Round robin scheduling","Priority scheduling","Multilevel queue scheduling"],
+
+    correctAnswer: "FCFS scheduling"
+
+  },
+
+
+  
+  {
+
+    question: "Which command is used to create a directory in DOS?",
+
+    options: ["MD","CD","RD","DIR"],
+
+    correctAnswer: "MD"
+
+  },
+
+  
+  {
+
+    question: "Which of the following file systems does Windows 10 use by default?",
+
+    options: ["NTFS","FAT32","exFAT","HFS+"],
+
+    correctAnswer: "NTFS"
+
+  },
+
+
+  
+  {
+
+    question: "Which operating system is developed by Apple?",
+
+    options: ["Windows","Android","iOS","Linux"],
+
+    correctAnswer: "iOS"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is a command interpreter in Unix/Linux operating systems?",
+
+    options: ["Shell","Kernel","Kernel","Compiler"],
+
+    correctAnswer: "Shell"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is not a function of the operating system?",
+
+    options: ["Memory management","Virus protection","Process management","File management"],
+
+    correctAnswer: "Virus protection"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a real-time operating system?",
+
+    options: ["Windows 10","Unix","RTOS","MacOS"],
+
+    correctAnswer: "RTOS"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is not an example of a utility program?",
+
+    options: ["Disk Cleanup","Disk Defragmenter","Windows Explorer","MS Paint"],
+
+    correctAnswer: "MS Paint"
+
+  },
+
+  
+  {
+
+    question: "Which memory allocation scheme suffers from external fragmentation?",
+
+    options: ["Paging","Segmentation","Contiguous Allocation","Virtual Memory"],
+
+    correctAnswer: "Contiguous Allocation"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is not an essential property of time-sharing systems?",
+
+    options: ["Interactivity","Response Time","Batch Processing","Multitasking"],
+
+    correctAnswer: "Batch Processing"
+
+  },
+
+
+  
+  {
+
+    question: "In UNIX, which command is used to change the permission of files and directories?",
+
+    options: ["chdir","chmod","chperm","chper"],
+
+    correctAnswer: "chmod"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a non-preemptive scheduling algorithm?",
+
+    options: ["Round Robin","Shortest Job Next","Priority Scheduling","First-Come-First-Served (FCFS)"],
+
+    correctAnswer: "First-Come-First-Served (FCFS)"
+
+  },
+
+
+  
+  {
+
+    question: "What is the purpose of the 'nice' command in UNIX?",
+
+    options: ["Change file permissions","Change the priority of a process","Display system information","Terminate a process"],
+
+    correctAnswer: "Change the priority of a process"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is used to protect critical sections in a multi-threading environment?",
+
+    options: ["Semaphore","Virtual Memory","File System","Compiler"],
+
+    correctAnswer: "Semaphore"
+
+  },
+
+  
+  {
+
+    question: "Which file system is designed for Linux systems?",
+
+    options: ["NTFS","FAT32","ext4","HFS+"],
+
+    correctAnswer: "ext4"
+
+  },
+
+  
+  {
+
+    question: "In Unix, what does the 'grep' command do?",
+
+    options: ["Change directory","Search for text patterns","Display process status","Create a new file"],
+
+    correctAnswer: "Search for text patterns"
+
+  },
+
+
+  
+  {
+
+    question: "What is the command used to remove a directory in Unix/Linux?",
+
+    options: ["rmdir","deldir","removedir","rm"],
+
+    correctAnswer: "rmdir"
+
+  },
+
+
+  
+  {
+
+    question: "What is the role of the 'mkfs' command in Unix/Linux?",
+
+    options: ["Create a new directory","Format a filesystem","Display file content","Mount a filesystem"],
+
+    correctAnswer: "Format a filesystem"
+
+  },
+
+  
+  {
+
+    question: "Which of the following algorithms is used for memory allocation in operating systems?",
+
+    options: ["LIFO","FIFO","Best Fit","Shortest Remaining Time"],
+
+    correctAnswer: "Best Fit"
+
+  },
+
+  
+  {
+
+    question: "What is the primary job of the operating system's kernel?",
+
+    options: ["User Interface","Resource Management","Application Development","Web Browsing"],
+
+    correctAnswer: "Resource Management"
+
+  },
+
+  
+  {
+
+    question: "In Unix, which command is used to display the currently running processes?",
+
+    options: ["Is","ps","chmod","rm"],
+
+    correctAnswer: "ps"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is used to increase security by separating processes on a system?",
+
+    options: ["Sandbox","Compiler","Scheduler","Thread"],
+
+    correctAnswer: "Sandbox"
+
+  },
+
+  
+  {
+
+    question: "Which command is used to list the contents of a directory in Unix/Linux?",
+
+    options: ["list","Is","dir","show"],
+
+    correctAnswer: "Is"
+
+  },
+
+  
+  {
+
+    question: "In Unix/Linux, which command is used to display the contents of a file?",
+
+    options: ["view","see","show","cat"],
+
+    correctAnswer: "cat"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is not an example of an operating system?",
+
+    options: ["Ubuntu","Red Hat","MySQL","Solaris"],
+
+    correctAnswer: "MySQL"
+
+  },
+
+
+  
+  {
+
+    question: "What is the primary purpose of the 'kill' command in Unix/Linux?",
+
+    options: ["Restart the system","Terminate a process","Remove a file","Format a disk"],
+
+    correctAnswer: "Terminate a process"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a disk scheduling algorithm?",
+
+    options: ["FCFS","SSTF","LOOK","ALL OF THE ABOVE"],
+
+    correctAnswer: "ALL OF THE ABOVE"
+
+  },
+
+
+  
+  {
+
+    question: "Which command is used to change the owner of a file in Unix/Linux?",
+
+    options: ["chown","chmod","chperm","chgrp"],
+
+    correctAnswer: "chown"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a valid process state?",
+
+    options: ["Running","Ready","Waiting","All of the above"],
+
+    correctAnswer: "All of the above"
+
+  },
+
+
+  
+  {
+
+    question: "In a Unix/Linux environment, which command is used to display the manual of a command?",
+
+    options: ["man","help","info","manual"],
+
+    correctAnswer: "man"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is not a valid file permission in Unix/Linux?",
+
+    options: ["Read","Write","Execute","Open"],
+
+    correctAnswer: "Open"
+
+  },
+
+  
+  {
+
+    question: "In Unix/Linux, what does the command 'pwd' stand for?",
+
+    options: ["Print working directory","password change","print word document","private working directory"],
+
+    correctAnswer: "Print working directory"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is an example of a distributed operating system?",
+
+    options: ["Windows 7","Ubuntu","Linux","Amoeba"],
+
+    correctAnswer: "Amoeba"
+
+  },
+
+
+  
+  {
+
+    question: "What is the primary function of a bootloader in an operating system?",
+
+    options: ["Manage memory","load the operating system kernel","Provide security","Handle file"],
+
+    correctAnswer: "load the operating system kernel"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is an example of a multi-tasking operating system?",
+
+    options: ["MS-DOC","Windows","CP/M","None of the above"],
+
+    correctAnswer: "Windows"
+
+  },
+
+  
+  {
+
+    question: "Which file system is used by macOS?",
+
+    options: ["NTFS","ext4","HFS+","FAT32"],
+
+    correctAnswer: "HFS+"
+
+  },
+
+  
+  {
+
+    question: "In Unix/Linux, which command is used to count the number of lines, words, and characters in a file?",
+
+    options: ["count","wc","grep","Is"],
+
+    correctAnswer: "wc"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a non-preemptive scheduling algorithm?",
+
+    options: ["FCFS","Round Robin","Shortest Job First","Priority Scheduling"],
+
+    correctAnswer: "FCFS"
+
+  },
+
+
+  
+  {
+
+    question: "Which type of operating system is designed to respond to events within a predictable time frame?",
+
+    options: ["Batch processing system","Real-time system","Multi-user system","Distributed system"],
+
+    correctAnswer: "Real-time system"
+
+  },
+
+  
+  {
+
+    question: "What is the maximum length of a filename in DOS?",
+
+    options: ["255 characters","127 characters","8 characters","64 characters"],
+
+    correctAnswer: "8 characters"
+
+  },
+
+
+  
+  {
+
+    question: "Which command in Unix/Linux is used to display the directory structure in a tree-like format?",
+
+    options: ["ls -l","tree","list","dir"],
+
+    correctAnswer: "tree"
+
+  },
+
+
+  
+  {
+
+    question: "What is the main function of the command cd in Unix/Linux?",
+
+    options: ["Create a new directory","Change the current directory","Copy files","Delete a directory"],
+
+    correctAnswer: "Change the current directory"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a common shell used in Unix/Linux?",
+
+    options: ["CMD","PowerShell","Bash","None ofthe mentioned"],
+
+    correctAnswer: "Bash"
+
+  },
+
+  
+  {
+
+    question: "Which of the following provides the interface between the user and the hardware in a computer system?",
+
+    options: ["Application software","Operating system","BIOS","Device drivers"],
+
+    correctAnswer: "Operating system"
+
+  },
+
+
+  
+  {
+
+    question: "Which scheduling algorithm assigns the CPU to the process with the smallest next CPU burst?",
+
+    options: ["FCFS","Round Robin","SJF (Shortest Job First)","Priority Scheduling"],
+
+    correctAnswer: "SJF (Shortest Job First)"
+
+  },
+
+
+  
+  {
+
+    question: "Which command is used to create a new user in Unix/Linux?",
+
+    options: ["newuser","adduser","useradd","createuser"],
+
+    correctAnswer: "useradd"
+
+  },
+
+  
+  {
+
+    question: "In Unix/Linux, which command is used to display system information?",
+
+    options: ["uname","sysinfo","info","system"],
+
+    correctAnswer: "uname"
+
+  },
+
+  
+  {
+
+    question: "What is the function of the mv command in Unix/Linux?",
+
+    options: ["copy files","move or rename files","delete files","display files"],
+
+    correctAnswer: "move or rename files"
+
+  },
+
+  
+  {
+
+    question: "In Unix/Linux, which command is used to search for files and directories?",
+
+    options: ["locate","search","find","lookup"],
+
+    correctAnswer: "find"
+
+  },
+
+
+  
+  {
+
+    question: "Which command in Unix/Linux is used to display the first few lines of a file?",
+
+    options: ["head","top","tail","start"],
+
+    correctAnswer: "head"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is a type of operating system that allows multiple users to access a computer system concurrently?",
+
+    options: ["Single-user system","Multi-user system","Batch processing system","Real-time system"],
+
+    correctAnswer: "Multi-user system"
+
+  },
+
+  
+  {
+
+    question: "Which Unix/Linux command is used to change the password of a user?",
+
+    options: ["chpwd","passwd","changepwd","setpwd"],
+
+    correctAnswer: "passwd"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is a valid state for a process in an operating system?",
+
+    options: ["Running","Blocked","Ready","All of the mentioned"],
+
+    correctAnswer: "All of the mentioned"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is not a common file attribute in Unix/Linux?",
+
+    options: ["Read-only","Hidden","Executable","Archive"],
+
+    correctAnswer: "Archive"
+
+  },
+
+  
+  {
+
+    question: "Which command is used to display the last few lines of a file in Unix/Linux?",
+
+    options: ["head","top","tail","end"],
+
+    correctAnswer: "tail"
+
+  },
+
+  
+  {
+
+    question: "Which Unix/Linux command is used to display the calendar?",
+
+    options: ["time","cal","date","clock"],
+
+    correctAnswer: "cal"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is an example of a command used to display the status of the network interfaces in Unix/Linux?",
+
+    options: ["netstat","ifconfig","ipconfig","nslookup"],
+
+    correctAnswer: "ifconfig"
+
+  },
+
+
+  
+  {
+
+    question: "Which type of operating system is best suited for use in a real-time application?",
+
+    options: ["General-purpose OS","Real-time OS","Batch OS","Distributed OS"],
+
+    correctAnswer: "Real-time OS"
+
+  },
+
+
+  
+  {
+
+    question: "Which command is used to display the last logged-in users in Unix/Linux?",
+
+    options: ["lastlog","who","last","log"],
+
+    correctAnswer: "last"
+
+  },
+
+  
+  {
+
+    question: "Which of the following commands is used to terminate a process in Unix/Linux?",
+
+    options: ["kill","end","stop","terminate"],
+
+    correctAnswer: "kill"
+
+  },
+
+  
+  {
+
+    question: "Which of the following commands in Unix/Linux is used to compress files?",
+
+    options: ["zip","tar","gzip","compress"],
+
+    correctAnswer: "gzip"
+
+  },
+
+  
+  {
+
+    question: "What does the ps command in Unix/Linux display?",
+
+    options: ["File system status","Memory usage","Running processes","network configuration"],
+
+    correctAnswer: "Running processes"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is used to manage the boot process of a computer?",
+
+    options: ["Bootloader","Compiler","Kernel","File System"],
+
+    correctAnswer: "Bootloader"
+
+  },
+
+  
+  {
+
+    question: "Which type of operating system is designed to manage multiple computers on a network?",
+
+    options: ["real-time OS","batch OS","distributed OS","single-user OS"],
+
+    correctAnswer: "distributed OS"
+
+  },
+
+  
+  {
+
+    question: "Which Unix/Linux command is used to change the file ownership?",
+
+    options: ["chmod","chown","chgrp","chperm"],
+
+    correctAnswer: "chown"
+
+  },
+
+
+  
+  {
+
+    question: "Which file system is specifically designed for flash drives?",
+
+    options: ["FAT32","NTFS","ext3","exFAT"],
+
+    correctAnswer: "exFAT"
+
+  },
+
+  
+  {
+
+    question: "What is the purpose of the clear command in Unix/Linux?",
+
+    options: ["clear the screen","clear the memory","clear the disk space","clear the cache"],
+
+    correctAnswer: "clear the screen"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a technique for managing memory in an operating system?",
+
+    options: ["Paging","Scheduling","Buffering","Caching"],
+
+    correctAnswer: "Paging"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a common method for inter-process communication (IPC)?",
+
+    options: ["Pipes","Shared Memory","Message Queues","All of the above"],
+
+    correctAnswer: "All of the above"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following commands is used to create a new directory in Unix/Linux?",
+
+    options: ["mkdir","newdir","createdir","dircreate"],
+
+    correctAnswer: "mkdir"
+
+  },
+
+
+  
+  {
+
+    question: "Which Unix/Linux command is used to change the group ownership of a file?",
+
+    options: ["chgrp","chmod","chown","changegrp"],
+
+    correctAnswer: "chgrp"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a system call used for process creation in Unix/Linux?",
+
+    options: ["exec()","fork()","wait()","exit()"],
+
+    correctAnswer: "fork()"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is a mechanism to handle deadlocks in an operating system?",
+
+    options: ["Deadlock detection","Deadlock prevention","Deadlock avoidance","all of the above"],
+
+    correctAnswer: "all of the above"
+
+  },
+
+
+  
+  {
+
+    question: "Which of the following is a type of hypervisor used in virtualization?",
+
+    options: ["Type 1 (bare-metal)","Type 2 (hosted)","Both","None"],
+
+    correctAnswer: "Both"
+
+  },
+
+  
+  {
+
+    question: "Which of the following is not a deadlock prevention technique?",
+
+    options: ["Mutual Exclusion","Hold and Wait","Preemption","Circular Wait"],
+
+    correctAnswer: "Hold and Wait"
+
+  },
+
+  
+  {
+
+    question: "Which command in Unix/Linux can be used to compare the contents of two files?",
+
+    options: ["cmp","compare","diff","cmp and compare"],
+
+    correctAnswer: "cmp and compare"
+
+  },
+
+
+  
+  {
+
+    question: "To access the services of the operating system, the interface is provided by the ___________",
+
+    options: ["Library","System calls","assembly instructions","API"],
+
+    correctAnswer: "System calls"
+
+  },
+
+
+  
+  {
+
+    question: "If a process fails, most operating system write the error information to a ______",
+
+    options: ["new file","another running process","log file","none of the above"],
+
+    correctAnswer: "log file"
+
+  },
+
+
+  
+  {
+
+    question: "Which one of the following is not a real time operating system?",
+
+    options: ["RTLinux","Palm OS","QNX","VxWorks"],
+
+    correctAnswer: "Palm OS"
+
+  },
+
+
+  
+  {
+
+    question: "In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?",
+
+    options: ["Suspended state","Terminated state","Ready state","Blocked state"],
+
+    correctAnswer: "Ready state"
+
+  },
+
+  
+  {
+
+    question: "Cascading termination refers to the termination of all child processes if the parent process terminates ______",
+
+    options: ["Normally or abnormally","Abnormally","Normally","None"],
+
+    correctAnswer: "Normally or abnormally"
+
+  },
+
+  
+  {
+
+    question: "The FCFS algorithm is particularly troublesome for ____________",
+
+    options: ["operating systems","multiprocessor systems","time sharing systems","multiprogramming systems"],
+
+    correctAnswer: "time sharing systems"
+
+  },
+
+
+  
+  {
+
+    question: "A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.",
+
+    options: ["operating system","resources","system storage state","resource allocation state"],
+
+    correctAnswer: "resource allocation state"
+
+  },
+
+  
+  {
+
+    question: "Swapping _______ be done when a process has pending I/O, or has to execute I/O operations only into operating system buffers.",
+
+    options: ["must never","maybe","can","must"],
+
+    correctAnswer: "must never"
+
+  },
+
+  
+  {
+
+    question: "The main memory accommodates ____________",
+
+    options: ["cpu","user processes","operating system","all of the mentioned"],
+
+    correctAnswer: "operating system"
+
+  },
+
+  
+  {
+
+    question: "The operating system is responsible for?",
+
+    options: ["bad-block recovery","booting from disk","booting from disk","all of the mentioned"],
+
+    correctAnswer: "all of the mentioned"
+
+  },
+
+  
+  {
+
+    question: "Using transient code, _______ the size of the operating system during program execution.",
+
+    options: ["maintains","changes","increases","decreases"],
+
+    correctAnswer: "changes"
+
+  },
+
+
+  
+  {
+
+    question: "Hard real time operating system has ______________ jitter than a soft real time operating system.",
+
+    options: ["equal","more","less","none of the above"],
+
+    correctAnswer: "less"
+
+  },
+
+
+  
+  {
+
+    question: "For real time operating systems, interrupt latency should be ____________",
+
+    options: ["zero","minimal","maximum","dependent on the scheduling"],
+
+    correctAnswer: "minimal"
+
+  },
+
+
+  
+  {
+
+    question: "For real time operating systems, interrupt latency should be ____________",
+
+    options: ["operating system","separate directory structure","swap space","none of the above"],
+
+    correctAnswer: "separate directory structure"
+
+  },
+
+  
+  {
+
+    question: " The operating system keeps a small table containing information about all open files called ____________",
+
+    options: ["file table","directory table","open-file table","system table"],
+
+    correctAnswer: "open-file table"
+
+  },
+
+  
+  {
+
+    question: "The operating system _______ the links when traversing directory trees, to preserve the acyclic structure of the system.",
+
+    options: ["deletes","considers","ignores","none of the above"],
+
+    correctAnswer: "ignores"
+
+  },
+
+  
+  {
+
+    question: "To recover from failures in the network operations _____________ information may be maintained.",
+
+    options: ["operating system","IP address","stateless","state"],
+
+    correctAnswer: "state"
+
+  },
+
+  
+  {
+
+    question: "On systems where there are multiple operating system, the decision to load a particular one is done by _____________",
+
+    options: ["process control block","file control block","boot loader","bootstrap"],
+
+    correctAnswer: "boot loader"
+
+  },
+
+  
+  {
+
+    question: " In Unix, which system call creates the new process?",
+
+    options: ["create","fork","new","none of the above"],
+
+    correctAnswer: "fork"
+
+  },
+
+  
+  {
+
+    question: "Which one of the following is the deadlock avoidance algorithm?",
+
+    options: ["banker’s algorithm","round-robin algorithm","elevator algorithm","karn’s algorithm"],
+
+    correctAnswer: "banker’s algorithm"
+
+  },
+
+
+  
+  {
+
+    question: "A problem encountered in multitasking when a process is perpetually denied necessary resources is called ____________",
+
+    options: ["deadlock","starvation","inversion","aging"],
+
+    correctAnswer: "starvation"
+
+  },
+
+  
+  {
+
+    question: "The request and release of resources are ___________",
+
+    options: ["command line statements","interrupts","system calls","special programs"],
+
+    correctAnswer: "system calls"
+
+  },
+
+
+  
+  {
+
+    question: "For a deadlock to arise, which of the following conditions must hold simultaneously?",
+
+    options: ["Mutual exclusion","No preemption","Hold and wait","All of the mentioned"],
+
+    correctAnswer: "All of the mentioned"
+
+  },
+
+  
+  {
+
+    question: "______ is a unique tag, usually a number identifies the file within the file system.",
+
+    options: ["File identifier","File name","File type","None of the mentioned"],
+
+    correctAnswer: "File identifier"
+
+  },
+
+
+  
+  {
+
+    question: "By using the specific system call, we can ____________",
+
+    options: ["open the file","read the file","write into the file","all of the mentioned"],
+
+    correctAnswer: "all of the mentioned"
+
+  },
+
+  
+  {
+
+    question: "File type can be represented by ____________",
+
+    options: ["file name","file extension","file identifier","none of the mentioned"],
+
+    correctAnswer: "file extension"
+
+  },
+
+
+  
+  {
+
+    question: "Which file is a sequence of bytes organized into blocks understandable by the system’s linker?",
+
+    options: ["object file","source file","executable file","text file"],
+
+    correctAnswer: " object file"
+
+  },
+
+  
+  {
+
+    question: "Mapping of file is managed by ____________",
+
+    options: ["file metadata","page table","virtual memory","file system"],
+
+    correctAnswer: "file metadata"
+
+  },
+
+
+  
+  {
+
+    question: "Mapping of network file system protocol to local file system is done by ____________",
+
+    options: ["network file system","local file system","volume manager","remote mirror"],
+
+    correctAnswer: "network file system"
+
+  },
+
+  
+  {
+
+    question: "The code segment that misuses its environment is called a _____________",
+
+    options: ["internal thief","trojan horse","code stacker","none of the mentioned"],
+
+    correctAnswer: "trojan horse"
+
+  },
+
+
+  
+  {
+
+    question: "The pattern that can be used to identify a virus is known as _____________",
+
+    options: ["stealth","virus signature","armoured","multipartite"],
+
+    correctAnswer: "virus signature"
+
+  },
+
+  
+  {
+
+    question: "Which one of the following is not an attack, but a search for vulnerabilities to attack?",
+
+    options: ["denial of service","port scanning","memory access violation","dumpster diving"],
+
+    correctAnswer: "port scanning"
+
+  },
   
   ];
   

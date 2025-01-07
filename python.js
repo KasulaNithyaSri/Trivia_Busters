@@ -2,11 +2,11 @@ const quizQuestions = [
 
   {
 
-    question: "Who developed Python Programming Language?",
+      question: "Who is the father of C language?",
 
-    options: ["Wick van Rossum","Rasmus Lerdorf","Guido van Rossum","Niene Stom"],
+      options: ["Steve Jobs","James Gosling","Dennis Ritchi","Rasmus Lerdorf"],
 
-    correctAnswer: "Guido van Rossum"
+      correctAnswer: "Dennis Ritchi"
 
   },
 
